@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Amtali Upazila",
+        "short_name": "amt",
+        "bengali_name": "আমতলী",
+        "website": "",
+        "longitude": "",
+        "latitude": ""
+    },
+    {
+        "name": "Bamna Upazila",
+        "short_name": "bam",
+        "bengali_name": "বামনা",
+        "website": "",
+        "longitude": "",
+        "latitude": ""
+    },
+    {
+        "name": "Barguna Sadar Upazila",
+        "short_name": "bar",
+        "bengali_name": "বরগুনা সদর",
+        "website": "",
+        "longitude": "",
+        "latitude": ""
+    },
+    {
+        "name": "Betagi Upazila",
+        "short_name": "bet",
+        "bengali_name": "বেতাগি",
+        "website": "",
+        "longitude": "",
+        "latitude": ""
+    },
+    {
+        "name": "Patharghata Upazila",
+        "short_name": "pat",
+        "bengali_name": "পাথরঘাটা",
+        "website": "",
+        "longitude": "",
+        "latitude": ""
+    },
+    {
+        "name": "Taltali Upazila",
+        "short_name": "tal",
+        "bengali_name": "তালতলী",
+        "website": "",
+        "longitude": "",
+        "latitude": ""
+    },
+    {
+        "name": "Muladi Upazila",
+        "short_name": "mul",
+        "bengali_name": "মুলাদি",
+        "website": "",
+        "longitude": "",
+        "latitude": ""
+    }
+]

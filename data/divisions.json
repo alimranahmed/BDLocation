@@ -1,0 +1,66 @@
+[
+    {
+        "name": "Barisal",
+        "short_name": "bar",
+        "bengali_name": "বরিশাল",
+        "website": "",
+        "longitude": "",
+        "latitude": ""
+    },
+    {
+        "name": "Chittagong",
+        "short_name": "chi",
+        "bengali_name": "চট্টগ্রাম",
+        "website": "",
+        "longitude": "",
+        "latitude": ""
+    },
+    {
+        "name": "Dhaka",
+        "short_name": "dha",
+        "bengali_name": "ঢাকা",
+        "website": "",
+        "longitude": "",
+        "latitude": ""
+    },
+    {
+        "name": "Khulna",
+        "short_name": "khu",
+        "bengali_name": "খুলনা",
+        "website": "",
+        "longitude": "",
+        "latitude": ""
+    },
+    {
+        "name": "Rajshahi",
+        "short_name": "raj",
+        "bengali_name": "রাজশাহী",
+        "website": "",
+        "longitude": "",
+        "latitude": ""
+    },
+    {
+        "name": "Rangpur",
+        "short_name": "ran",
+        "bengali_name": "রংপুর",
+        "website": "",
+        "longitude": "",
+        "latitude": ""
+    },
+    {
+        "name": "Sylhet",
+        "short_name": "syl",
+        "bengali_name": "সিলেট",
+        "website": "",
+        "longitude": "",
+        "latitude": ""
+    },
+    {
+        "name": "Mymensingh",
+        "short_name": "mym",
+        "bengali_name": "ময়মনসিংহ",
+        "website": "",
+        "longitude": "",
+        "latitude": ""
+    }
+]

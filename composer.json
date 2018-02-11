@@ -1,0 +1,16 @@
+{
+  "name": "alimranahmed/bdlocation",
+  "description": "Locations of Bangladesh",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Al- Imran Ahmed",
+      "email": "al.imran.cse@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": { "BDLocation\\": "src/" }
+  }
+}
