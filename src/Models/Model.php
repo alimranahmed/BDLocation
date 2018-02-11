@@ -16,7 +16,6 @@ class Model
 
         $concreteModelName = '\\BDLocation\\Models\\'.ucfirst(strtolower($driver)) . 'Model';
         $this->concreteModel = new $concreteModelName($this->schema);
-
     }
 
     public function all()
@@ -24,8 +23,13 @@ class Model
         return $this->concreteModel->all();
     }
 
-    public function where($name, $operator = '=', $value)
+    /**
+     * @param $name ['division', 'district', 'sub_district', 'name', 'short_name', 'bengali_name']
+     * @param $operator ['=', 'like']
+     * @param $value
+     */
+    public function getWhere($name, $operator, $value)
     {
-        $this->schema->where();
+        $this->concreteModel->getWhere($name, $operator, $value);
     }
 }

@@ -25,82 +25,32 @@ class JsonModel
         //2. IF file not found then scan all the directory
         //2.1. If found file found then
         //division
-        $locations = $this->getFileContent($this->dataPath);
-        $locations = $this->buildCollection($locations);
-
-        //districts
-        $locations = $this->getDirectories($this->dataPath);
-        $locations = $this->getFileContent($locations);
-        return $locations;
-    }
-
-    public function where($name, $value)
-    {
-
-    }
-
-    private function getDirContents($path)
-    {
-        $directories = [];
-        $directoryNames = array_diff(scandir($path), ['.', '..', '.DS_Store']);
-        foreach ($directoryNames as $directoryName) {
-            $directories[] = "$path/$directoryName";
+        $locations = $this->getFileContent("{$this->dataPath}/{$this->schema}.json");
+        $locations = $locations['data'];
+        if($this->schema != 'divisions'){
+            $locations = $this->buildFlatArray($locations);
         }
-        return $directories;
+        return $this->buildCollection($locations);
     }
 
-    private function getFile($path)
+    public function getWhere($name, $operator, $value)
     {
-        $contents = $this->getDirContents($path);
-        foreach ($contents as $content) {
-            echo "Search for {$this->schema} in {$content}\n";
-            if (strpos($content, $this->schema) !== false) {
-                return $content;
-            }
-        }
-        return null;
+
     }
 
-    private function getFiles($paths)
+    private function getFileContent($filePath)
     {
-        $files = [];
-        if (is_array($paths)) {
-            foreach ($paths as $path) {
-                $file = $this->getFile($path);
-                if (!is_null($file)) {
-                    $files[] = $file;
-                }
-            }
-        } else {
-            $file = $this->getFile($paths);
-            if (!is_null($file)) {
-                $files[] = $file;
-            }
-        }
-        return $files;
+        $content = json_decode(file_get_contents($filePath), true);
+        return $content;
     }
 
-    private function getFileContent($paths)
-    {
-        $contents = [];
-        $files = $this->getFiles($paths);
-        foreach ($files as $file) {
-            $content = json_decode(file_get_contents($file), true);
-            $contents = array_merge($contents, $content);
+    private function buildFlatArray($locations){
+        $locationArrays = array_values($locations);
+        $flatLocationArray = [];
+        foreach ($locationArrays as $locationArray){
+            $flatLocationArray = array_merge($flatLocationArray, $locationArray);
         }
-        return $contents;
-    }
-
-    private function getDirectories($path)
-    {
-        $contents = $this->getDirContents($path);
-        $directories = [];
-        foreach ($contents as $content) {
-            if (strpos($content, '.json') === false) {
-                $directories[] = $content;
-            }
-        }
-        return $directories;
+        return $flatLocationArray;
     }
 
     private function buildCollection($locations)

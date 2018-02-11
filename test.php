@@ -1,6 +1,15 @@
 <?php
 require __DIR__ . "/vendor/autoload.php";
 
-use BDLocation\Models\BD;
+//Export
+/*
+$exporter = new \BDLocation\Utilities\Exporter();
+$exporter->export();
+die;*/
 
-var_dump(BD::district()->all());
+use BDLocation\Models\BD;
+//$result = BD::district()->all();
+$result = BD::union()->all();
+//$result = BD::subDistrict()->all();
+//$result = BD::division()->all();
+var_dump($result);

@@ -3,5 +3,5 @@ namespace BDLocation\Models;
 
 class SubDistrict extends Model
 {
-    protected $schema = 'subdistricts';
+    protected $schema = 'sub_districts';
 }
