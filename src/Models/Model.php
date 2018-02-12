@@ -27,9 +27,10 @@ class Model
      * @param $name ['division', 'district', 'sub_district', 'name', 'short_name', 'bengali_name']
      * @param $operator ['=', 'like']
      * @param $value
+     * @return array
      */
-    public function getWhere($name, $operator, $value)
+    public function getWhere($name, $operator, $value = null)
     {
-        $this->concreteModel->getWhere($name, $operator, $value);
+        return $this->concreteModel->getWhere($name, $operator, $value);
     }
 }

@@ -21,7 +21,7 @@ class Exporter
 
     public function connect()
     {
-        echo "Connecting to database...\n";
+        echo "\nConnecting to database...\n";
         try {
             $connection = new PDO(
                 "mysql:host={$this->server};dbname={$this->database};port={$this->port}",
@@ -109,6 +109,7 @@ class Exporter
         }
         file_put_contents("$root/divisions.json", $this->jsonDecode($divisions));
         echo "Exported successfully!\n";
+        return true;
     }
 
     public function jsonDecode($json){

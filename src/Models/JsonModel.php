@@ -10,32 +10,59 @@ class JsonModel
 
     protected $collection;
 
+    protected $contents;
+
     public function __construct($schema, $dataPath = __DIR__ . '/../../data')
     {
         $this->schema = $schema;
 
         $this->dataPath = $dataPath;
+
+        $this->contents = $this->getFileContent("{$this->dataPath}/{$this->schema}.json");
     }
 
     public function all()
     {
-        //Get All
-        //1. If file found then
-        //1. 1. IF this is the file we are looking for then return the contents
-        //2. IF file not found then scan all the directory
-        //2.1. If found file found then
-        //division
-        $locations = $this->getFileContent("{$this->dataPath}/{$this->schema}.json");
-        $locations = $locations['data'];
-        if($this->schema != 'divisions'){
+        $locations = $this->contents['data'];
+        if(!$this->isDivisionSchema()){
             $locations = $this->buildFlatArray($locations);
         }
         return $this->buildCollection($locations);
     }
 
-    public function getWhere($name, $operator, $value)
+    /**
+     * @param $name ['division', 'district', 'sub_district', 'name', 'short_name', 'bengali_name']
+     * @param $operator ['=', 'like']
+     * @param $value
+     * @return array
+     */
+    public function getWhere($name, $operator, $value = null)
     {
+        if(is_null($value)){
+            $value = $operator;
+            $operator = '=';
+        }
 
+        if($this->contents['parent'] == $name){
+            $locations = $this->contents['data'][$value] ?? [];
+        }else{
+            $locations = $this->contents['data'];
+            if(!$this->isDivisionSchema()){
+                $locations = $this->buildFlatArray($locations);
+            }
+            $locations = array_filter($locations, function($location) use($name, $operator, $value){
+                if(isset($location[$name])){
+                    if($operator == '='){
+                        return strtolower($location['name']) == strtolower($value);
+                    }else if(strtolower($operator) == 'like'){
+                        return strpos(strtolower($location['name']), strtolower($value)) !== false;
+                    }
+                }
+                return false;
+            });
+        }
+
+        return $this->buildCollection($locations);
     }
 
     private function getFileContent($filePath)
@@ -76,5 +103,9 @@ class JsonModel
             $location['longitude'],
             $location['latitude']
         );
+    }
+
+    private function isDivisionSchema(){
+        return $this->schema == 'divisions';
     }
 }
