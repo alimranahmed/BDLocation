@@ -1,5 +1,5 @@
 # BDLocation
-A PHP interface to access Location's of Bangladesh. The data in this project used and slightly modified from [Bangladesh-geolocation](https://github.com/nuhil/bangladesh-geocode)
+A PHP interface to access Locations of Bangladesh. The data in this project used and slightly modified from [Bangladesh-geolocation](https://github.com/nuhil/bangladesh-geocode)
 
 ## Features
 1. Can access name, bengali_name etc of divisions, districts, sub districts and unions of Bangladesh  
