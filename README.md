@@ -56,9 +56,9 @@ BD::district()->getWhere('division', 'chi');
 
 To get the district that has name `Brahmanbaria` we can use the following code. Same thing will work for division, sub-district and union also. Insead of `name` we can pass `short_name`(first 3 letter of the location), `bengali_name` also. 
 ```
-$districts = BD::district()->getWhere('name', 'brahmanbaria');
+BD::district()->getWhere('name', 'brahmanbaria');
 or 
-$districts = BD::district()->getWhere('name', '=', 'brahmanbaria');
+BD::district()->getWhere('name', '=', 'brahmanbaria');
 ```
 
 To get all the districts that contains the letter `rahman` in it's name we can use the following code. Same thing will work for division, sub-district and union also. Insead of `name` we can pass `short_name`(first 3 letter of the location), `bengali_name` also.
