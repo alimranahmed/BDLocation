@@ -64,7 +64,7 @@ class JsonModel
             });
         }
 
-        if($isSingleObj && !empty($locations)){
+        if($isSingleObj && !empty($locations) && count($locations) == 1){
             return $this->buildLocation(array_values($locations)[0]);
         }
         return $this->buildCollection($locations);
