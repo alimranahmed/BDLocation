@@ -1,6 +1,6 @@
 <?php
 
-use BDLocation\Models\BD;
+use BDLocation\BD;
 
 class DistrictTest extends \PHPUnit\Framework\TestCase
 {

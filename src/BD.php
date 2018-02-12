@@ -1,5 +1,7 @@
 <?php
-namespace BDLocation\Models;
+namespace BDLocation;
+
+use BDLocation\Models\Model;
 
 class BD
 {
