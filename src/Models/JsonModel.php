@@ -24,7 +24,7 @@ class JsonModel
     public function all()
     {
         $locations = $this->contents['data'];
-        if(!$this->isDivisionSchema()){
+        if($this->hasParent()){
             $locations = $this->buildFlatArray($locations);
         }
         return $this->buildCollection($locations);
@@ -34,7 +34,7 @@ class JsonModel
      * @param $name ['division', 'district', 'sub_district', 'name', 'short_name', 'bengali_name']
      * @param $operator ['=', 'like']
      * @param $value
-     * @return array
+     * @return array | Location
      */
     public function getWhere($name, $operator, $value = null)
     {
@@ -43,13 +43,15 @@ class JsonModel
             $operator = '=';
         }
 
+        $isSingleObj = false;
         if($this->contents['parent'] == $name){
             $locations = $this->contents['data'][$value] ?? [];
         }else{
             $locations = $this->contents['data'];
-            if(!$this->isDivisionSchema()){
+            if($this->hasParent()){
                 $locations = $this->buildFlatArray($locations);
             }
+            $isSingleObj = $operator == '=';
             $locations = array_filter($locations, function($location) use($name, $operator, $value){
                 if(isset($location[$name])){
                     if($operator == '='){
@@ -62,6 +64,9 @@ class JsonModel
             });
         }
 
+        if($isSingleObj && !empty($locations)){
+            return $this->buildLocation(array_values($locations)[0]);
+        }
         return $this->buildCollection($locations);
     }
 
@@ -105,7 +110,7 @@ class JsonModel
         );
     }
 
-    private function isDivisionSchema(){
-        return $this->schema == 'divisions';
+    private function hasParent(){
+        return $this->contents['parent'] != null;
     }
 }

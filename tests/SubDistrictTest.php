@@ -18,11 +18,11 @@ class SubDistrictTest extends \PHPUnit\Framework\TestCase
 
         $subDistricts = BD::subDistrict()->getWhere('name', 'Sarail Upazila');
 
-        $this->assertTrue($subDistricts[0]->name == 'Sarail Upazila');
+        $this->assertTrue($subDistricts->name == 'Sarail Upazila');
 
         $subDistricts = BD::subDistrict()->getWhere('name', '=', 'Sarail Upazila');
 
-        $this->assertTrue($subDistricts[0]->name == 'Sarail Upazila');
+        $this->assertTrue($subDistricts->name == 'Sarail Upazila');
 
     }
 

@@ -14,11 +14,11 @@ class DivisionTest extends \PHPUnit\Framework\TestCase
     {
         $divisions = BD::division()->getWhere('name', 'Chittagong');
 
-        $this->assertTrue($divisions[0]->name == 'Chittagong');
+        $this->assertTrue($divisions->name == 'Chittagong');
 
         $divisions = BD::division()->getWhere('name', '=', 'Chittagong');
 
-        $this->assertTrue($divisions[0]->name == 'Chittagong');
+        $this->assertTrue($divisions->name == 'Chittagong');
 
     }
 

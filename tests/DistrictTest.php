@@ -17,11 +17,11 @@ class DistrictTest extends \PHPUnit\Framework\TestCase
 
         $districts = BD::district()->getWhere('name', 'brahmanbaria');
 
-        $this->assertTrue($districts[0]->name == 'Brahmanbaria');
+        $this->assertTrue($districts->name == 'Brahmanbaria');
 
         $districts = BD::district()->getWhere('name', '=', 'brahmanbaria');
 
-        $this->assertTrue($districts[0]->name == 'Brahmanbaria');
+        $this->assertTrue($districts->name == 'Brahmanbaria');
 
     }
 
