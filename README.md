@@ -26,7 +26,7 @@ That's it! you are ready to go!
 
 Don't forget to use the BD class:
 ```
-use BDLocation\Models\BD;
+use BDLocation\BD;
 ```
 
 To get all **divisions** of Bangladesh as an array of Location object:
