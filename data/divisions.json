@@ -5,65 +5,65 @@
             "name": "Barisal",
             "short_name": "bar",
             "bengali_name": "বরিশাল",
-            "website": "",
-            "longitude": "",
-            "latitude": ""
+            "website": "http://www.barisaldiv.gov.bd",
+            "longitude": "90.342211",
+            "latitude": "22.725186"
         },
         {
             "name": "Chittagong",
             "short_name": "chi",
             "bengali_name": "চট্টগ্রাম",
-            "website": "",
-            "longitude": "",
-            "latitude": ""
+            "website": "http://www.chittagongdiv.gov.bd",
+            "longitude": "91.834009",
+            "latitude": "22.335126"
         },
         {
             "name": "Dhaka",
             "short_name": "dha",
             "bengali_name": "ঢাকা",
-            "website": "",
-            "longitude": "",
-            "latitude": ""
+            "website": "http://www.dhakadiv.gov.bd",
+            "longitude": "90.407411",
+            "latitude": "23.735698"
         },
         {
             "name": "Khulna",
             "short_name": "khu",
             "bengali_name": "খুলনা",
-            "website": "",
-            "longitude": "",
-            "latitude": ""
+            "website": "http://www.khulnadiv.gov.bd",
+            "longitude": "89.5409366",
+            "latitude": "22.8335271"
         },
         {
             "name": "Rajshahi",
             "short_name": "raj",
             "bengali_name": "রাজশাহী",
-            "website": "",
-            "longitude": "",
-            "latitude": ""
+            "website": "http://www.rajshahidiv.gov.bd",
+            "longitude": "88.56946",
+            "latitude": "24.369283"
         },
         {
             "name": "Rangpur",
             "short_name": "ran",
             "bengali_name": "রংপুর",
-            "website": "",
-            "longitude": "",
-            "latitude": ""
+            "website": "http://www.rangpurdiv.gov.bd",
+            "longitude": "89.245679",
+            "latitude": "25.755761"
         },
         {
             "name": "Sylhet",
             "short_name": "syl",
             "bengali_name": "সিলেট",
-            "website": "",
-            "longitude": "",
-            "latitude": ""
+            "website": "http://www.sylhetdiv.gov.bd",
+            "longitude": "91.887049",
+            "latitude": "24.875808"
         },
         {
             "name": "Mymensingh",
             "short_name": "mym",
             "bengali_name": "ময়মনসিংহ",
-            "website": "",
-            "longitude": "",
-            "latitude": ""
+            "website": "http://www.mymensinghdiv.gov.bd",
+            "longitude": "90.405681",
+            "latitude": "24.760862"
         }
     ]
 }
