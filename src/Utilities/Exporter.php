@@ -33,7 +33,6 @@ class Exporter
             $connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             echo "Connected to database successfully!\n";
             return $connection;
-
         } catch (PDOException $e) {
             echo "Connection failed: " .$e->getLine().': '. $e->getMessage() . "\n";
         }
@@ -112,7 +111,8 @@ class Exporter
         return true;
     }
 
-    public function jsonDecode($json){
+    public function jsonDecode($json)
+    {
         return json_encode($json, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
     }
 }
