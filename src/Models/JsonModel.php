@@ -24,7 +24,7 @@ class JsonModel
     public function all()
     {
         $locations = $this->contents['data'];
-        if($this->hasParent()){
+        if ($this->hasParent()) {
             $locations = $this->buildFlatArray($locations);
         }
         return $this->buildCollection($locations);
@@ -38,33 +38,39 @@ class JsonModel
      */
     public function getWhere($name, $operator, $value = null)
     {
-        if(is_null($value)){
+        if (is_null($value)) {
             $value = $operator;
             $operator = '=';
         }
 
         $isSingleObj = false;
-        if($this->contents['parent'] == $name){
+        if ($this->contents['parent'] == $name) {
             $locations = $this->contents['data'][$value] ?? [];
-        }else{
+        } else {
             $locations = $this->contents['data'];
-            if($this->hasParent()){
+            if ($this->hasParent()) {
                 $locations = $this->buildFlatArray($locations);
             }
             $isSingleObj = $operator == '=';
-            $locations = array_filter($locations, function($location) use($name, $operator, $value){
-                if(isset($location[$name])){
-                    if($operator == '='){
+            $locations = array_filter($locations, function ($location) use ($name, $operator, $value) {
+                if (isset($location[$name])) {
+                    if ($operator == '=') {
                         return strtolower($location['name']) == strtolower($value);
-                    }else if(strtolower($operator) == 'like'){
-                        return strpos(strtolower($location['name']), strtolower($value)) !== false;
+                    } else {
+                        if (strtolower($operator) == 'like') {
+                            return strpos(strtolower($location['name']), strtolower($value)) !== false;
+                        } elseif (strtolower($operator) == '%like') {
+                            return substr(strtolower($location['name']), 0, strlen($value)) === $value;
+                        } elseif (strtolower($operator) == 'like%') {
+                            return substr(strtolower($location['name']), -strlen($value)) === $value;
+                        }
                     }
                 }
                 return false;
             });
         }
 
-        if($isSingleObj && !empty($locations) && count($locations) == 1){
+        if ($isSingleObj && !empty($locations) && count($locations) == 1) {
             return $this->buildLocation(array_values($locations)[0]);
         }
         return $this->buildCollection($locations);
@@ -76,10 +82,11 @@ class JsonModel
         return $content;
     }
 
-    private function buildFlatArray($locations){
+    private function buildFlatArray($locations)
+    {
         $locationArrays = array_values($locations);
         $flatLocationArray = [];
-        foreach ($locationArrays as $locationArray){
+        foreach ($locationArrays as $locationArray) {
             $flatLocationArray = array_merge($flatLocationArray, $locationArray);
         }
         return $flatLocationArray;
@@ -110,7 +117,8 @@ class JsonModel
         );
     }
 
-    private function hasParent(){
+    private function hasParent()
+    {
         return $this->contents['parent'] != null;
     }
 }

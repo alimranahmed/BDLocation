@@ -1,4 +1,5 @@
 <?php
+
 namespace BDLocation\Models;
 
 class Location

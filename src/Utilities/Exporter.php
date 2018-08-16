@@ -1,4 +1,5 @@
 <?php
+
 namespace BDLocation\Utilities;
 
 use PDO;
@@ -35,7 +36,7 @@ class Exporter
             return $connection;
 
         } catch (PDOException $e) {
-            echo "Connection failed: " .$e->getLine().': '. $e->getMessage() . "\n";
+            echo "Connection failed: " . $e->getLine() . ': ' . $e->getMessage() . "\n";
         }
         return null;
     }
@@ -112,7 +113,8 @@ class Exporter
         return true;
     }
 
-    public function jsonDecode($json){
+    public function jsonDecode($json)
+    {
         return json_encode($json, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
     }
 }

@@ -68,8 +68,7 @@ BD::district()->getWhere('name', 'like', 'rahman');
 **Note:** We have only `=` and `like` as operator here. No other operator will work here. 
 
 ## Wishlist
-- [ ] Using the data from Mysql Database and have flexibility of both(json and DB)
-- [ ] Supporting more operators like `like%` `%like` etc in `getWhere()` function 
+- [x] Supporting more operators like `like%` `%like` etc in `getWhere()` function 
 
 ### Contribution 
 Anyone is always welcome to contribute on the project. If you want to work with, just create and issue(even if you want to fix the issue). After fixing any issue or adding any new feature just send a pull request, I will be happy to add your code for the betterment of this project. Thanks.

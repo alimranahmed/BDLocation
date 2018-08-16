@@ -14,7 +14,7 @@ class Model
     {
         $this->driver = $driver;
 
-        $concreteModelName = '\\BDLocation\\Models\\'.ucfirst(strtolower($driver)) . 'Model';
+        $concreteModelName = '\\BDLocation\\Models\\' . ucfirst(strtolower($driver)) . 'Model';
         $this->concreteModel = new $concreteModelName($this->schema);
     }
 
