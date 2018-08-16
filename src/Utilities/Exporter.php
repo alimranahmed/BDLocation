@@ -34,7 +34,6 @@ class Exporter
             $connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             echo "Connected to database successfully!\n";
             return $connection;
-
         } catch (PDOException $e) {
             echo "Connection failed: " . $e->getLine() . ': ' . $e->getMessage() . "\n";
         }

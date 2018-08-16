@@ -1,8 +1,12 @@
 <?php
+namespace BDLocation\Tests;
 
-class UtilityTest extends \PHPUnit\Framework\TestCase
+use PHPUnit\Framework\TestCase;
+
+class UtilityTest extends TestCase
 {
-    public function testExporting(){
+    public function testExporting()
+    {
         //$exporter = new \BDLocation\Utilities\Exporter();
         //$isExported = $exporter->export();
         //$this->assertTrue($isExported);

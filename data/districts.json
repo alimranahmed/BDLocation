@@ -7,16 +7,16 @@
                 "short_name": "bar",
                 "bengali_name": "বরগুনা",
                 "website": "www.barguna.gov.bd",
-                "longitude": "0",
-                "latitude": "0"
+                "longitude": "90.108864",
+                "latitude": "22.157015"
             },
             {
                 "name": "Barisal",
                 "short_name": "bar",
                 "bengali_name": "বরিশাল",
                 "website": "www.barisal.gov.bd",
-                "longitude": "0",
-                "latitude": "0"
+                "longitude": "90.370299",
+                "latitude": "22.708216"
             },
             {
                 "name": "Bhola",
@@ -31,8 +31,8 @@
                 "short_name": "jha",
                 "bengali_name": "ঝালকাঠি",
                 "website": "www.jhalakathi.gov.bd",
-                "longitude": "0",
-                "latitude": "0"
+                "longitude": "90.198304",
+                "latitude": "22.640384"
             },
             {
                 "name": "Patuakhali",
@@ -47,8 +47,8 @@
                 "short_name": "pir",
                 "bengali_name": "পিরোজপুর",
                 "website": "www.pirojpur.gov.bd",
-                "longitude": "0",
-                "latitude": "0"
+                "longitude": "89.968773",
+                "latitude": "22.577968"
             }
         ],
         "chi": [
@@ -97,8 +97,8 @@
                 "short_name": "cox",
                 "bengali_name": "কক্স বাজার",
                 "website": "www.coxsbazar.gov.bd",
-                "longitude": "0",
-                "latitude": "0"
+                "longitude": "91.973458",
+                "latitude": "21.445442"
             },
             {
                 "name": "Feni",
@@ -137,8 +137,8 @@
                 "short_name": "ran",
                 "bengali_name": "রাঙ্গামাটি",
                 "website": "www.rangamati.gov.bd",
-                "longitude": "0",
-                "latitude": "0"
+                "longitude": "92.166101",
+                "latitude": "22.661860"
             }
         ],
         "dha": [
@@ -195,16 +195,16 @@
                 "short_name": "man",
                 "bengali_name": "মানিকগঞ্জ",
                 "website": "www.manikganj.gov.bd",
-                "longitude": "0",
-                "latitude": "0"
+                "longitude": "92.166085",
+                "latitude": "22.661697"
             },
             {
                 "name": "Munshiganj",
                 "short_name": "mun",
                 "bengali_name": "মুন্সিগঞ্জ",
                 "website": "www.munshiganj.gov.bd",
-                "longitude": "0",
-                "latitude": "0"
+                "longitude": "90.531512",
+                "latitude": "23.556311"
             },
             {
                 "name": "Narayanganj",
@@ -235,16 +235,16 @@
                 "short_name": "sha",
                 "bengali_name": "শরীয়তপুর",
                 "website": "www.shariatpur.gov.bd",
-                "longitude": "0",
-                "latitude": "0"
+                "longitude": "90.339512",
+                "latitude": "23.202896"
             },
             {
                 "name": "Tangail",
                 "short_name": "tan",
                 "bengali_name": "টাঙ্গাইল",
                 "website": "www.tangail.gov.bd",
-                "longitude": "0",
-                "latitude": "0"
+                "longitude": "89.913695",
+                "latitude": "24.247551"
             }
         ],
         "khu": [
@@ -325,8 +325,8 @@
                 "short_name": "sat",
                 "bengali_name": "সাতক্ষীরা",
                 "website": "www.satkhira.gov.bd",
-                "longitude": "0",
-                "latitude": "0"
+                "longitude": "89.073221",
+                "latitude": "22.712116"
             }
         ],
         "raj": [
@@ -343,16 +343,16 @@
                 "short_name": "joy",
                 "bengali_name": "জয়পুরহাট",
                 "website": "www.joypurhat.gov.bd",
-                "longitude": "0",
-                "latitude": "0"
+                "longitude": "89.025887",
+                "latitude": "25.102514"
             },
             {
                 "name": "Naogaon",
                 "short_name": "nao",
                 "bengali_name": "নওগাঁ",
                 "website": "www.naogaon.gov.bd",
-                "longitude": "0",
-                "latitude": "0"
+                "longitude": "88.924756",
+                "latitude": "24.832446"
             },
             {
                 "name": "Natore",
@@ -383,8 +383,8 @@
                 "short_name": "raj",
                 "bengali_name": "রাজশাহী",
                 "website": "www.rajshahi.gov.bd",
-                "longitude": "0",
-                "latitude": "0"
+                "longitude": "89.359577",
+                "latitude": "24.886402"
             },
             {
                 "name": "Sirajgonj",
@@ -425,8 +425,8 @@
                 "short_name": "lal",
                 "bengali_name": "লালমনিরহাট",
                 "website": "www.lalmonirhat.gov.bd",
-                "longitude": "0",
-                "latitude": "0"
+                "longitude": "89.447775",
+                "latitude": "25.912101"
             },
             {
                 "name": "Nilphamari",
@@ -441,8 +441,8 @@
                 "short_name": "pan",
                 "bengali_name": "পঞ্চগড়",
                 "website": "www.panchagarh.gov.bd",
-                "longitude": "88.5541606",
-                "latitude": "26.3411"
+                "longitude": "88.554758",
+                "latitude": "26.332611"
             },
             {
                 "name": "Rangpur",
@@ -509,8 +509,8 @@
                 "short_name": "mym",
                 "bengali_name": "ময়মনসিংহ",
                 "website": "www.mymensingh.gov.bd",
-                "longitude": "0",
-                "latitude": "0"
+                "longitude": "90.405681",
+                "latitude": "24.760862"
             },
             {
                 "name": "Netrokona",

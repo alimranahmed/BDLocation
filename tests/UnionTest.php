@@ -1,8 +1,10 @@
 <?php
+namespace BDLocation\Tests;
 
 use BDLocation\BD;
+use PHPUnit\Framework\TestCase;
 
-class UnionTest extends \PHPUnit\Framework\TestCase
+class UnionTest extends TestCase
 {
     public function testAll()
     {

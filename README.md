@@ -1,5 +1,5 @@
 # BDLocation
-A PHP interface to access Location's of Bangladesh. The data in this project used and slightly modified from [Bangladesh-geolocation](https://github.com/nuhil/bangladesh-geocode)
+A PHP interface to access Locations of Bangladesh. The data in this project used and slightly modified from [Bangladesh-geolocation](https://github.com/nuhil/bangladesh-geocode)
 
 ## Features
 1. Can access name, bengali_name etc of divisions, districts, sub districts and unions of Bangladesh  
@@ -10,15 +10,9 @@ A PHP interface to access Location's of Bangladesh. The data in this project use
 PHP >= 7
 
 ## Installation 
-Update your project's `composer.json` file as bellow:
+Execute the following command in the terminal while you are in the root directory of your PHP project:
 
-    
-    "require": {
-        "alimranahmed/bdlocation": "dev-master"
-    }
-    
-    
-then execute `composer update`
+`composer require alimranahmed/bdlocation`
 
 That's it! you are ready to go!
 
@@ -68,10 +62,15 @@ BD::district()->getWhere('name', 'like', 'rahman');
 **Note:** We have only `=` and `like` as operator here. No other operator will work here. 
 
 ## Wishlist
-- [x] Supporting more operators like `like%` `%like` etc in `getWhere()` function 
+<<<<<<< HEAD
+- [x] Supporting more operators like `like%` `%like` etc. 
 
 ### Contribution 
-Anyone is always welcome to contribute on the project. If you want to work with, just create and issue(even if you want to fix the issue). After fixing any issue or adding any new feature just send a pull request, I will be happy to add your code for the betterment of this project. Thanks.
+**Anyone is always welcome to contribute on the project. If you want to work with:**
+1. Just create and issue(even if you want to fix the issue). 
+2. After fixing any issue or adding any new feature just send a pull request
+3. I will be happy to add your code for the betterment of this project. 
+Thanks.
 
 ## Licence 
 [MIT](https://opensource.org/licenses/MIT)
