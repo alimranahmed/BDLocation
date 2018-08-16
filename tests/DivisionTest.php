@@ -1,8 +1,10 @@
 <?php
+namespace BDLocation\Tests;
 
 use BDLocation\BD;
+use PHPUnit\Framework\TestCase;
 
-class DivisionTest extends \PHPUnit\Framework\TestCase
+class DivisionTest extends TestCase
 {
     public function testAll()
     {
@@ -19,7 +21,6 @@ class DivisionTest extends \PHPUnit\Framework\TestCase
         $divisions = BD::division()->getWhere('name', '=', 'Chittagong');
 
         $this->assertTrue($divisions->name == 'Chittagong');
-
     }
 
     public function testLikeQuery()

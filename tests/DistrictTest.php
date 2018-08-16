@@ -1,8 +1,10 @@
 <?php
+namespace BDLocation\Tests;
 
 use BDLocation\BD;
+use PHPUnit\Framework\TestCase;
 
-class DistrictTest extends \PHPUnit\Framework\TestCase
+class DistrictTest extends TestCase
 {
     public function testAll()
     {
@@ -22,7 +24,6 @@ class DistrictTest extends \PHPUnit\Framework\TestCase
         $districts = BD::district()->getWhere('name', '=', 'brahmanbaria');
 
         $this->assertTrue($districts->name == 'Brahmanbaria');
-
     }
 
     public function testLikeQuery()
@@ -30,5 +31,4 @@ class DistrictTest extends \PHPUnit\Framework\TestCase
         $districts = BD::district()->getWhere('name', 'like', 'brahm');
         $this->assertTrue($districts[0]->name == 'Brahmanbaria');
     }
-
 }

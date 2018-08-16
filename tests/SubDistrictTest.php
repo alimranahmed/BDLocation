@@ -1,9 +1,10 @@
 <?php
+namespace BDLocation\Tests;
 
 use BDLocation\BD;
+use PHPUnit\Framework\TestCase;
 
-
-class SubDistrictTest extends \PHPUnit\Framework\TestCase
+class SubDistrictTest extends TestCase
 {
     public function testAll()
     {
@@ -23,7 +24,6 @@ class SubDistrictTest extends \PHPUnit\Framework\TestCase
         $subDistricts = BD::subDistrict()->getWhere('name', '=', 'Sarail Upazila');
 
         $this->assertTrue($subDistricts->name == 'Sarail Upazila');
-
     }
 
     public function testLikeQuery()
