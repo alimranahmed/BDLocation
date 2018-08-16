@@ -10,15 +10,9 @@ A PHP interface to access Locations of Bangladesh. The data in this project used
 PHP >= 7
 
 ## Installation 
-Update your project's `composer.json` file as bellow:
+Execute the following command in the terminal while you are in the root directory of your PHP project:
 
-    
-    "require": {
-        "alimranahmed/bdlocation": "dev-master"
-    }
-    
-    
-then execute `composer update`
+`composer require alimranahmed/bdlocation`
 
 That's it! you are ready to go!
 
