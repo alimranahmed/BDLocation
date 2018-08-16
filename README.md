@@ -62,7 +62,6 @@ BD::district()->getWhere('name', 'like', 'rahman');
 **Note:** We have only `=` and `like` as operator here. No other operator will work here. 
 
 ## Wishlist
-<<<<<<< HEAD
 - [x] Supporting more operators like `like%` `%like` etc. 
 
 ### Contribution 
