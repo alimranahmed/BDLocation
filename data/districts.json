@@ -51,7 +51,7 @@
                 "latitude": "22.577968"
             }
         ],
-        "chi": [
+        "cha": [
             {
                 "name": "Bandarban",
                 "short_name": "ban",
@@ -77,7 +77,7 @@
                 "latitude": "23.2332585"
             },
             {
-                "name": "Chittagong",
+                "name": "Chattogram",
                 "short_name": "chi",
                 "bengali_name": "চট্টগ্রাম",
                 "website": "www.chittagong.gov.bd",

@@ -14,24 +14,24 @@ class DivisionTest extends TestCase
 
     public function testEqualQuery()
     {
-        $divisions = BD::division()->getWhere('name', 'Chittagong');
+        $divisions = BD::division()->getWhere('name', 'Chattogram');
 
-        $this->assertTrue($divisions->name == 'Chittagong');
+        $this->assertTrue($divisions->name == 'Chattogram');
 
-        $divisions = BD::division()->getWhere('name', '=', 'Chittagong');
+        $divisions = BD::division()->getWhere('name', '=', 'Chattogram');
 
-        $this->assertTrue($divisions->name == 'Chittagong');
+        $this->assertTrue($divisions->name == 'Chattogram');
     }
 
     public function testLikeQuery()
     {
-        $divisions = BD::division()->getWhere('name', 'like', 'hittag');
-        $this->assertTrue($divisions[0]->name == 'Chittagong');
+        $divisions = BD::division()->getWhere('name', 'like', 'attogr');
+        $this->assertTrue($divisions[0]->name == 'Chattogram');
 
-        $divisions = BD::division()->getWhere('name', '%like', 'chittag');
-        $this->assertTrue($divisions[0]->name == 'Chittagong');
+        $divisions = BD::division()->getWhere('name', '%like', 'chatto');
+        $this->assertTrue($divisions[0]->name == 'Chattogram');
 
-        $divisions = BD::division()->getWhere('name', 'like%', 'agong');
-        $this->assertTrue($divisions[0]->name == 'Chittagong');
+        $divisions = BD::division()->getWhere('name', 'like%', 'gram');
+        $this->assertTrue($divisions[0]->name == 'Chattogram');
     }
 }
