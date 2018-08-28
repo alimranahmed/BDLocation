@@ -667,7 +667,7 @@
                 "latitude": ""
             }
         ],
-        "com": [
+        "cum": [
             {
                 "name": "Barura Upazila",
                 "short_name": "bar",
@@ -733,8 +733,8 @@
                 "latitude": ""
             },
             {
-                "name": "Comilla Sadar Upazila",
-                "short_name": "com",
+                "name": "Cumilla Sadar Upazila",
+                "short_name": "cum",
                 "bengali_name": "কুমিল্লা সদর",
                 "website": "",
                 "longitude": "",
@@ -781,8 +781,8 @@
                 "latitude": ""
             },
             {
-                "name": "Comilla Sadar South Upazila",
-                "short_name": "com",
+                "name": "Cumilla Sadar South Upazila",
+                "short_name": "cum",
                 "bengali_name": "কুমিল্লা সদর দক্ষিণ",
                 "website": "",
                 "longitude": "",
@@ -2215,8 +2215,8 @@
                 "latitude": ""
             },
             {
-                "name": "Jessore Sadar Upazila",
-                "short_name": "jes",
+                "name": "Jashore Sadar Upazila",
+                "short_name": "jas",
                 "bengali_name": "যশোর সদর",
                 "website": "",
                 "longitude": "",
@@ -2557,7 +2557,7 @@
                 "latitude": ""
             },
             {
-                "name": "Bogra Sadar",
+                "name": "Bogura Sadar",
                 "short_name": "bog",
                 "bengali_name": "বগুড়া সদর",
                 "website": "",

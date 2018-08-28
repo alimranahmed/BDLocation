@@ -85,10 +85,10 @@
                 "latitude": "22.335109"
             },
             {
-                "name": "Comilla",
-                "short_name": "com",
+                "name": "Cumilla",
+                "short_name": "cum",
                 "bengali_name": "কুমিল্লা",
-                "website": "www.comilla.gov.bd",
+                "website": "http://www.cocc.gov.bd/",
                 "longitude": "91.1788135",
                 "latitude": "23.4682747"
             },
@@ -265,8 +265,8 @@
                 "latitude": "23.6401961"
             },
             {
-                "name": "Jessore",
-                "short_name": "jes",
+                "name": "Jashore",
+                "short_name": "jas",
                 "bengali_name": "যশোর",
                 "website": "www.jessore.gov.bd",
                 "longitude": "89.2081126",
@@ -331,7 +331,7 @@
         ],
         "raj": [
             {
-                "name": "Bogra",
+                "name": "Bogura",
                 "short_name": "bog",
                 "bengali_name": "বগুড়া",
                 "website": "www.bogra.gov.bd",
