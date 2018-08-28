@@ -1,4 +1,5 @@
 <?php
+
 namespace BDLocation\Tests;
 
 use BDLocation\BD;

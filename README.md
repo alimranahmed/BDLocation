@@ -1,4 +1,7 @@
 [![Build Status](https://travis-ci.org/alimranahmed/BDLocation.svg?branch=master)](https://travis-ci.org/alimranahmed/BDLocation)
+[![License](https://poser.pugx.org/alimranahmed/bdlocation/license)](https://packagist.org/packages/alimranahmed/bdlocation)
+[![Latest Stable Version](https://poser.pugx.org/alimranahmed/bdlocation/v/stable)](https://packagist.org/packages/alimranahmed/bdlocation)
+
 
 # BDLocation
 A PHP interface to access Locations of Bangladesh. The data in this project used and slightly modified from [Bangladesh-geolocation](https://github.com/nuhil/bangladesh-geocode)
