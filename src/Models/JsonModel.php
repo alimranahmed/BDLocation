@@ -27,6 +27,7 @@ class JsonModel
         if ($this->hasParent()) {
             $locations = $this->buildFlatArray($locations);
         }
+
         return $this->buildCollection($locations);
     }
 
@@ -73,6 +74,7 @@ class JsonModel
         if ($isSingleObj && !empty($locations) && count($locations) == 1) {
             return $this->buildLocation(array_values($locations)[0]);
         }
+
         return $this->buildCollection($locations);
     }
 
@@ -89,6 +91,7 @@ class JsonModel
         foreach ($locationArrays as $locationArray) {
             $flatLocationArray = array_merge($flatLocationArray, $locationArray);
         }
+
         return $flatLocationArray;
     }
 
@@ -98,6 +101,7 @@ class JsonModel
         foreach ($locations as $location) {
             $collection[] = $this->buildLocation($location);
         }
+
         return $collection;
     }
 
