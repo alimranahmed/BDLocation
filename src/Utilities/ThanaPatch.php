@@ -1,23 +1,22 @@
 <?php
-
 namespace BDLocation\Utilities;
 
 use PDO;
 use PDOException;
 
-class Exporter
+class ThanaPatch
 {
     public $server = "localhost";
-    public $username = "homestead";
-    public $password = "secret";
+    public $username = "root";
+    public $password = "";
     /**
      * Database extracted from: https://github.com/nuhil/bangladesh-geocode
      * @var string
      */
     public $database = "bd_locations";
-    public $port = "33060";
+    public $port = "3306";
     public $connection = null;
-    public $dataDir = __DIR__ . '/../../data';
+    public $dataDir = __DIR__ . '/../../data/new';
 
     public function __construct()
     {
@@ -54,8 +53,8 @@ class Exporter
     public function prepareArray($resultArray)
     {
         return [
-            'name' => $resultArray['name'],
-            'short_name' => $resultArray['short_name'],
+            'name' => trim($resultArray['name']),
+            'short_name' => $resultArray['short_name'] ?? substr(strtolower($resultArray['name']), 0, 3),
             'bengali_name' => $resultArray['bn_name'],
             'website' => $resultArray['website'] ?? '',
             'longitude' => $resultArray['lon'] ?? '',
@@ -86,26 +85,31 @@ class Exporter
         echo "Exporting from database...\n";
         //divisions
         foreach ($divisionRows as $division) {
-            $divisions['data'][] = $this->prepareArray($division);
+            $preparedDivision = $this->prepareArray($division);
+
+            $divisions['data'][] = $preparedDivision;
+
             $districtsQuery = "select * from districts where division_id='{$division['id']}'";
             $districtRows = $this->execute($this->connection, $districtsQuery);
             //districts
             foreach ($districtRows as $district) {
-                $districts['data'][$division['short_name']][] = $this->prepareArray($district);
+                $preparedDistrict = $this->prepareArray($district);
+                $districts['data'][$preparedDivision['short_name']][] = $preparedDivision;
                 $districtsQuery = "select * from upazilas where district_id='{$district['id']}'";
                 $subDistrictRows = $this->execute($this->connection, $districtsQuery);
                 //sub_districts
                 foreach ($subDistrictRows as $subDistrict) {
-                    $sub_districts['data'][$district['short_name']][] = $this->prepareArray($subDistrict);
-                    $unionQuery = "select * from unions where upazila_id='{$subDistrict['id']}'";
+                    $preparedSubDistrict = $this->prepareArray($subDistrict);
+                    $sub_districts['data'][$preparedDistrict['short_name']][] = $preparedSubDistrict;
+                    /*$unionQuery = "select * from unions where upazila_id='{$subDistrict['id']}'";
                     $unionRows = $this->execute($this->connection, $unionQuery);
                     //Union
                     foreach ($unionRows as $union) {
-                        $unions['data'][$subDistrict['short_name']][] = $this->prepareArray($union);
+                        $unions['data'][$preparedSubDistrict['short_name']][] = $this->prepareArray($union);
                     }
 
                     $this->createDir($root);
-                    file_put_contents("$root/unions.json", $this->jsonDecode($unions));
+                    file_put_contents("$root/unions.json", $this->jsonDecode($unions));*/
                 }
                 file_put_contents("$root//sub_districts.json", $this->jsonDecode($sub_districts));
             }
@@ -122,11 +126,5 @@ class Exporter
     }
 }
 
-/*
- * -- name
- * -- short_name
- * -- bengali_name
- * -- latitude
- * -- longitude
- * -- website
- */
+$thanaPatch = new ThanaPatch();
+$thanaPatch->export();
