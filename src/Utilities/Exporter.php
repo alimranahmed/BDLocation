@@ -5,15 +5,16 @@ namespace BDLocation\Utilities;
 use PDO;
 use PDOException;
 
+/**
+ * Class Exporter
+ * Database extracted from: https://github.com/nuhil/bangladesh-geocode
+ * @package BDLocation\Utilities
+ */
 class Exporter
 {
     public $server = "localhost";
     public $username = "homestead";
     public $password = "secret";
-    /**
-     * Database extracted from: https://github.com/nuhil/bangladesh-geocode
-     * @var string
-     */
     public $database = "bd_locations";
     public $port = "33060";
     public $connection = null;
