@@ -13,12 +13,12 @@ use PDOException;
 class Exporter
 {
     public $server = "localhost";
-    public $username = "homestead";
-    public $password = "secret";
+    public $username = "root";
+    public $password = "";
     public $database = "bd_locations";
     public $port = "33060";
     public $connection = null;
-    public $dataDir = __DIR__ . '/../../data';
+    public $dataDir = __DIR__ . '/../../data/new';
 
     public function __construct()
     {
@@ -54,14 +54,15 @@ class Exporter
 
     public function prepareArray($resultArray)
     {
-        return [
+        $resultArray = [
             'name' => $resultArray['name'],
-            'short_name' => $resultArray['short_name'],
+            'short_name' => substr(strtolower($resultArray['name']), 0, 5),
             'bengali_name' => $resultArray['bn_name'],
             'website' => $resultArray['website'] ?? '',
             'longitude' => $resultArray['lon'] ?? '',
             'latitude' => $resultArray['lat'] ?? '',
         ];
+        return $resultArray;
     }
 
     public function createDir($path)
@@ -87,22 +88,25 @@ class Exporter
         echo "Exporting from database...\n";
         //divisions
         foreach ($divisionRows as $division) {
-            $divisions['data'][] = $this->prepareArray($division);
+            $divisionArray = $this->prepareArray($division);
+            $divisions['data'][] = $divisionArray;
             $districtsQuery = "select * from districts where division_id='{$division['id']}'";
             $districtRows = $this->execute($this->connection, $districtsQuery);
             //districts
             foreach ($districtRows as $district) {
-                $districts['data'][$division['short_name']][] = $this->prepareArray($district);
+                $districtArray = $this->prepareArray($district);
+                $districts['data'][$divisionArray['short_name']][] = $districtArray;
                 $districtsQuery = "select * from upazilas where district_id='{$district['id']}'";
                 $subDistrictRows = $this->execute($this->connection, $districtsQuery);
                 //sub_districts
                 foreach ($subDistrictRows as $subDistrict) {
-                    $sub_districts['data'][$district['short_name']][] = $this->prepareArray($subDistrict);
+                    $subDistrictArray = $this->prepareArray($subDistrict);
+                    $sub_districts['data'][$districtArray['short_name']][] = $subDistrictArray;
                     $unionQuery = "select * from unions where upazila_id='{$subDistrict['id']}'";
                     $unionRows = $this->execute($this->connection, $unionQuery);
                     //Union
                     foreach ($unionRows as $union) {
-                        $unions['data'][$subDistrict['short_name']][] = $this->prepareArray($union);
+                        $unions['data'][$subDistrictArray['short_name']][] = $this->prepareArray($union);
                     }
 
                     $this->createDir($root);
@@ -123,6 +127,8 @@ class Exporter
     }
 }
 
+$expoorter = new Exporter();
+$expoorter->export();
 /*
  * -- name
  * -- short_name

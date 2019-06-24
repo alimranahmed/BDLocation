@@ -10,13 +10,12 @@ class SubDistrictTest extends TestCase
     public function testAll()
     {
         $subDistricts = BD::subDistrict()->all();
-        //$this->assertEquals(491, count($subDistricts));
         $this->assertEquals(589, count($subDistricts));
     }
 
     public function testEqualQuery()
     {
-        $districts = BD::subDistrict()->getWhere('district', 'bra');
+        $districts = BD::subDistrict()->getWhere('district', 'brahm');
         $this->assertEquals(10, count($districts));
 
         $subDistricts = BD::subDistrict()->getWhere('name', 'Sarail');
@@ -36,7 +35,7 @@ class SubDistrictTest extends TestCase
 
     public function testThana()
     {
-        $districts = BD::subDistrict()->getWhere('district', 'dha');
+        $districts = BD::subDistrict()->getWhere('district', 'dhaka');
         $this->assertEquals(54, count($districts));
 
         $subDistricts = BD::subDistrict()->getWhere('name', 'Adabor');
