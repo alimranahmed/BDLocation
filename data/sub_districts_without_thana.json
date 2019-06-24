@@ -1,10 +1,10 @@
 {
     "parent": "district",
     "data": {
-        "bar": [
+        "bargu": [
             {
                 "name": "Amtali Upazila",
-                "short_name": "amt",
+                "short_name": "amtal",
                 "bengali_name": "আমতলী",
                 "website": "",
                 "longitude": "",
@@ -12,7 +12,7 @@
             },
             {
                 "name": "Bamna Upazila",
-                "short_name": "bam",
+                "short_name": "bamna",
                 "bengali_name": "বামনা",
                 "website": "",
                 "longitude": "",
@@ -20,7 +20,7 @@
             },
             {
                 "name": "Barguna Sadar Upazila",
-                "short_name": "bar",
+                "short_name": "bargu",
                 "bengali_name": "বরগুনা সদর",
                 "website": "",
                 "longitude": "",
@@ -28,7 +28,7 @@
             },
             {
                 "name": "Betagi Upazila",
-                "short_name": "bet",
+                "short_name": "betag",
                 "bengali_name": "বেতাগি",
                 "website": "",
                 "longitude": "",
@@ -36,7 +36,7 @@
             },
             {
                 "name": "Patharghata Upazila",
-                "short_name": "pat",
+                "short_name": "patha",
                 "bengali_name": "পাথরঘাটা",
                 "website": "",
                 "longitude": "",
@@ -44,15 +44,17 @@
             },
             {
                 "name": "Taltali Upazila",
-                "short_name": "tal",
+                "short_name": "talta",
                 "bengali_name": "তালতলী",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
-            },
+            }
+        ],
+        "baris": [
             {
                 "name": "Muladi Upazila",
-                "short_name": "mul",
+                "short_name": "mulad",
                 "bengali_name": "মুলাদি",
                 "website": "",
                 "longitude": "",
@@ -60,7 +62,7 @@
             },
             {
                 "name": "Babuganj Upazila",
-                "short_name": "bab",
+                "short_name": "babug",
                 "bengali_name": "বাবুগঞ্জ",
                 "website": "",
                 "longitude": "",
@@ -68,7 +70,7 @@
             },
             {
                 "name": "Agailjhara Upazila",
-                "short_name": "aga",
+                "short_name": "agail",
                 "bengali_name": "আগাইলঝরা",
                 "website": "",
                 "longitude": "",
@@ -76,7 +78,7 @@
             },
             {
                 "name": "Barisal Sadar Upazila",
-                "short_name": "bar",
+                "short_name": "baris",
                 "bengali_name": "বরিশাল সদর",
                 "website": "",
                 "longitude": "",
@@ -84,7 +86,7 @@
             },
             {
                 "name": "Bakerganj Upazila",
-                "short_name": "bak",
+                "short_name": "baker",
                 "bengali_name": "বাকেরগঞ্জ",
                 "website": "",
                 "longitude": "",
@@ -92,7 +94,7 @@
             },
             {
                 "name": "Banaripara Upazila",
-                "short_name": "ban",
+                "short_name": "banar",
                 "bengali_name": "বানাড়িপারা",
                 "website": "",
                 "longitude": "",
@@ -100,7 +102,7 @@
             },
             {
                 "name": "Gaurnadi Upazila",
-                "short_name": "gau",
+                "short_name": "gaurn",
                 "bengali_name": "গৌরনদী",
                 "website": "",
                 "longitude": "",
@@ -108,7 +110,7 @@
             },
             {
                 "name": "Hizla Upazila",
-                "short_name": "hiz",
+                "short_name": "hizla",
                 "bengali_name": "হিজলা",
                 "website": "",
                 "longitude": "",
@@ -116,7 +118,7 @@
             },
             {
                 "name": "Mehendiganj Upazila",
-                "short_name": "meh",
+                "short_name": "mehen",
                 "bengali_name": "মেহেদিগঞ্জ ",
                 "website": "",
                 "longitude": "",
@@ -124,17 +126,17 @@
             },
             {
                 "name": "Wazirpur Upazila",
-                "short_name": "waz",
+                "short_name": "wazir",
                 "bengali_name": "ওয়াজিরপুর",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "bho": [
+        "bhola": [
             {
                 "name": "Bhola Sadar Upazila",
-                "short_name": "bho",
+                "short_name": "bhola",
                 "bengali_name": "ভোলা সদর",
                 "website": "",
                 "longitude": "",
@@ -142,7 +144,7 @@
             },
             {
                 "name": "Burhanuddin Upazila",
-                "short_name": "bur",
+                "short_name": "burha",
                 "bengali_name": "বুরহানউদ্দিন",
                 "website": "",
                 "longitude": "",
@@ -150,7 +152,7 @@
             },
             {
                 "name": "Char Fasson Upazila",
-                "short_name": "cha",
+                "short_name": "char ",
                 "bengali_name": "চর ফ্যাশন",
                 "website": "",
                 "longitude": "",
@@ -158,7 +160,7 @@
             },
             {
                 "name": "Daulatkhan Upazila",
-                "short_name": "dau",
+                "short_name": "daula",
                 "bengali_name": "দৌলতখান",
                 "website": "",
                 "longitude": "",
@@ -166,7 +168,7 @@
             },
             {
                 "name": "Lalmohan Upazila",
-                "short_name": "lal",
+                "short_name": "lalmo",
                 "bengali_name": "লালমোহন",
                 "website": "",
                 "longitude": "",
@@ -174,7 +176,7 @@
             },
             {
                 "name": "Manpura Upazila",
-                "short_name": "man",
+                "short_name": "manpu",
                 "bengali_name": "মনপুরা",
                 "website": "",
                 "longitude": "",
@@ -182,17 +184,17 @@
             },
             {
                 "name": "Tazumuddin Upazila",
-                "short_name": "taz",
+                "short_name": "tazum",
                 "bengali_name": "তাজুমুদ্দিন",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "jha": [
+        "jhalo": [
             {
                 "name": "Jhalokati Sadar Upazila",
-                "short_name": "jha",
+                "short_name": "jhalo",
                 "bengali_name": "ঝালকাঠি সদর",
                 "website": "",
                 "longitude": "",
@@ -200,7 +202,7 @@
             },
             {
                 "name": "Kathalia Upazila",
-                "short_name": "kat",
+                "short_name": "katha",
                 "bengali_name": "কাঁঠালিয়া",
                 "website": "",
                 "longitude": "",
@@ -208,7 +210,7 @@
             },
             {
                 "name": "Nalchity Upazila",
-                "short_name": "nal",
+                "short_name": "nalch",
                 "bengali_name": "নালচিতি",
                 "website": "",
                 "longitude": "",
@@ -216,17 +218,17 @@
             },
             {
                 "name": "Rajapur Upazila",
-                "short_name": "raj",
+                "short_name": "rajap",
                 "bengali_name": "রাজাপুর",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "pat": [
+        "patua": [
             {
                 "name": "Bauphal Upazila",
-                "short_name": "bau",
+                "short_name": "bauph",
                 "bengali_name": "বাউফল",
                 "website": "",
                 "longitude": "",
@@ -234,7 +236,7 @@
             },
             {
                 "name": "Dashmina Upazila",
-                "short_name": "das",
+                "short_name": "dashm",
                 "bengali_name": "দশমিনা",
                 "website": "",
                 "longitude": "",
@@ -242,7 +244,7 @@
             },
             {
                 "name": "Galachipa Upazila",
-                "short_name": "gal",
+                "short_name": "galac",
                 "bengali_name": "গলাচিপা",
                 "website": "",
                 "longitude": "",
@@ -250,7 +252,7 @@
             },
             {
                 "name": "Kalapara Upazila",
-                "short_name": "kal",
+                "short_name": "kalap",
                 "bengali_name": "কালাপারা",
                 "website": "",
                 "longitude": "",
@@ -258,7 +260,7 @@
             },
             {
                 "name": "Mirzaganj Upazila",
-                "short_name": "mir",
+                "short_name": "mirza",
                 "bengali_name": "মির্জাগঞ্জ ",
                 "website": "",
                 "longitude": "",
@@ -266,7 +268,7 @@
             },
             {
                 "name": "Patuakhali Sadar Upazila",
-                "short_name": "pat",
+                "short_name": "patua",
                 "bengali_name": "পটুয়াখালী সদর",
                 "website": "",
                 "longitude": "",
@@ -274,7 +276,7 @@
             },
             {
                 "name": "Dumki Upazila",
-                "short_name": "dum",
+                "short_name": "dumki",
                 "bengali_name": "ডুমকি",
                 "website": "",
                 "longitude": "",
@@ -282,17 +284,17 @@
             },
             {
                 "name": "Rangabali Upazila",
-                "short_name": "ran",
+                "short_name": "ranga",
                 "bengali_name": "রাঙ্গাবালি",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "pir": [
+        "piroj": [
             {
                 "name": "Bhandaria",
-                "short_name": "bha",
+                "short_name": "bhand",
                 "bengali_name": "ভ্যান্ডারিয়া",
                 "website": "",
                 "longitude": "",
@@ -300,7 +302,7 @@
             },
             {
                 "name": "Kaukhali",
-                "short_name": "kau",
+                "short_name": "kaukh",
                 "bengali_name": "কাউখালি",
                 "website": "",
                 "longitude": "",
@@ -308,7 +310,7 @@
             },
             {
                 "name": "Mathbaria",
-                "short_name": "mat",
+                "short_name": "mathb",
                 "bengali_name": "মাঠবাড়িয়া",
                 "website": "",
                 "longitude": "",
@@ -316,7 +318,7 @@
             },
             {
                 "name": "Nazirpur",
-                "short_name": "naz",
+                "short_name": "nazir",
                 "bengali_name": "নাজিরপুর",
                 "website": "",
                 "longitude": "",
@@ -324,7 +326,7 @@
             },
             {
                 "name": "Nesarabad",
-                "short_name": "nes",
+                "short_name": "nesar",
                 "bengali_name": "নেসারাবাদ",
                 "website": "",
                 "longitude": "",
@@ -332,7 +334,7 @@
             },
             {
                 "name": "Pirojpur Sadar",
-                "short_name": "pir",
+                "short_name": "piroj",
                 "bengali_name": "পিরোজপুর সদর",
                 "website": "",
                 "longitude": "",
@@ -340,17 +342,17 @@
             },
             {
                 "name": "Zianagar",
-                "short_name": "zia",
+                "short_name": "ziana",
                 "bengali_name": "জিয়ানগর",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "ban": [
+        "banda": [
             {
                 "name": "Bandarban Sadar",
-                "short_name": "ban",
+                "short_name": "banda",
                 "bengali_name": "বান্দরবন সদর",
                 "website": "",
                 "longitude": "",
@@ -358,7 +360,7 @@
             },
             {
                 "name": "Thanchi",
-                "short_name": "tha",
+                "short_name": "thanc",
                 "bengali_name": "থানচি",
                 "website": "",
                 "longitude": "",
@@ -366,7 +368,7 @@
             },
             {
                 "name": "Lama",
-                "short_name": "lam",
+                "short_name": "lama",
                 "bengali_name": "লামা",
                 "website": "",
                 "longitude": "",
@@ -374,7 +376,7 @@
             },
             {
                 "name": "Naikhongchhari",
-                "short_name": "nai",
+                "short_name": "naikh",
                 "bengali_name": "নাইখংছড়ি ",
                 "website": "",
                 "longitude": "",
@@ -382,7 +384,7 @@
             },
             {
                 "name": "Ali kadam",
-                "short_name": "ali",
+                "short_name": "ali k",
                 "bengali_name": "আলী কদম",
                 "website": "",
                 "longitude": "",
@@ -390,7 +392,7 @@
             },
             {
                 "name": "Rowangchhari",
-                "short_name": "row",
+                "short_name": "rowan",
                 "bengali_name": "রউয়াংছড়ি ",
                 "website": "",
                 "longitude": "",
@@ -398,17 +400,17 @@
             },
             {
                 "name": "Ruma",
-                "short_name": "rum",
+                "short_name": "ruma",
                 "bengali_name": "রুমা",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "bra": [
+        "brahm": [
             {
                 "name": "Brahmanbaria Sadar Upazila",
-                "short_name": "bra",
+                "short_name": "brahm",
                 "bengali_name": "ব্রাহ্মণবাড়িয়া সদর",
                 "website": "",
                 "longitude": "",
@@ -416,7 +418,7 @@
             },
             {
                 "name": "Ashuganj Upazila",
-                "short_name": "ash",
+                "short_name": "ashug",
                 "bengali_name": "আশুগঞ্জ",
                 "website": "",
                 "longitude": "",
@@ -424,7 +426,7 @@
             },
             {
                 "name": "Nasirnagar Upazila",
-                "short_name": "nas",
+                "short_name": "nasir",
                 "bengali_name": "নাসির নগর",
                 "website": "",
                 "longitude": "",
@@ -432,7 +434,7 @@
             },
             {
                 "name": "Nabinagar Upazila",
-                "short_name": "nab",
+                "short_name": "nabin",
                 "bengali_name": "নবীনগর",
                 "website": "",
                 "longitude": "",
@@ -440,7 +442,7 @@
             },
             {
                 "name": "Sarail Upazila",
-                "short_name": "sar",
+                "short_name": "sarai",
                 "bengali_name": "সরাইল",
                 "website": "",
                 "longitude": "",
@@ -448,7 +450,7 @@
             },
             {
                 "name": "Shahbazpur Town",
-                "short_name": "sha",
+                "short_name": "shahb",
                 "bengali_name": "শাহবাজপুর টাউন",
                 "website": "",
                 "longitude": "",
@@ -456,7 +458,7 @@
             },
             {
                 "name": "Kasba Upazila",
-                "short_name": "kas",
+                "short_name": "kasba",
                 "bengali_name": "কসবা",
                 "website": "",
                 "longitude": "",
@@ -464,7 +466,7 @@
             },
             {
                 "name": "Akhaura Upazila",
-                "short_name": "akh",
+                "short_name": "akhau",
                 "bengali_name": "আখাউরা",
                 "website": "",
                 "longitude": "",
@@ -472,7 +474,7 @@
             },
             {
                 "name": "Bancharampur Upazila",
-                "short_name": "ban",
+                "short_name": "banch",
                 "bengali_name": "বাঞ্ছারামপুর",
                 "website": "",
                 "longitude": "",
@@ -480,17 +482,17 @@
             },
             {
                 "name": "Bijoynagar Upazila",
-                "short_name": "bij",
+                "short_name": "bijoy",
                 "bengali_name": "বিজয় নগর",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "cha": [
+        "chand": [
             {
                 "name": "Chandpur Sadar",
-                "short_name": "cha",
+                "short_name": "chand",
                 "bengali_name": "চাঁদপুর সদর",
                 "website": "",
                 "longitude": "",
@@ -498,7 +500,7 @@
             },
             {
                 "name": "Faridganj",
-                "short_name": "far",
+                "short_name": "farid",
                 "bengali_name": "ফরিদগঞ্জ",
                 "website": "",
                 "longitude": "",
@@ -506,7 +508,7 @@
             },
             {
                 "name": "Haimchar",
-                "short_name": "hai",
+                "short_name": "haimc",
                 "bengali_name": "হাইমচর",
                 "website": "",
                 "longitude": "",
@@ -514,7 +516,7 @@
             },
             {
                 "name": "Haziganj",
-                "short_name": "haz",
+                "short_name": "hazig",
                 "bengali_name": "হাজীগঞ্জ",
                 "website": "",
                 "longitude": "",
@@ -522,7 +524,7 @@
             },
             {
                 "name": "Kachua",
-                "short_name": "kac",
+                "short_name": "kachu",
                 "bengali_name": "কচুয়া",
                 "website": "",
                 "longitude": "",
@@ -530,7 +532,7 @@
             },
             {
                 "name": "Matlab Uttar",
-                "short_name": "mat",
+                "short_name": "matla",
                 "bengali_name": "মতলব উত্তর",
                 "website": "",
                 "longitude": "",
@@ -538,7 +540,7 @@
             },
             {
                 "name": "Matlab Dakkhin",
-                "short_name": "mat",
+                "short_name": "matla",
                 "bengali_name": "মতলব দক্ষিণ",
                 "website": "",
                 "longitude": "",
@@ -546,17 +548,17 @@
             },
             {
                 "name": "Shahrasti",
-                "short_name": "sha",
+                "short_name": "shahr",
                 "bengali_name": "শাহরাস্তি",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "chi": [
+        "chatt": [
             {
                 "name": "Anwara Upazila",
-                "short_name": "anw",
+                "short_name": "anwar",
                 "bengali_name": "আনোয়ারা",
                 "website": "",
                 "longitude": "",
@@ -564,7 +566,7 @@
             },
             {
                 "name": "Banshkhali Upazila",
-                "short_name": "ban",
+                "short_name": "bansh",
                 "bengali_name": "বাশখালি",
                 "website": "",
                 "longitude": "",
@@ -572,7 +574,7 @@
             },
             {
                 "name": "Boalkhali Upazila",
-                "short_name": "boa",
+                "short_name": "boalk",
                 "bengali_name": "বোয়ালখালি",
                 "website": "",
                 "longitude": "",
@@ -580,7 +582,7 @@
             },
             {
                 "name": "Chandanaish Upazila",
-                "short_name": "cha",
+                "short_name": "chand",
                 "bengali_name": "চন্দনাইশ",
                 "website": "",
                 "longitude": "",
@@ -588,7 +590,7 @@
             },
             {
                 "name": "Fatikchhari Upazila",
-                "short_name": "fat",
+                "short_name": "fatik",
                 "bengali_name": "ফটিকছড়ি",
                 "website": "",
                 "longitude": "",
@@ -596,7 +598,7 @@
             },
             {
                 "name": "Hathazari Upazila",
-                "short_name": "hat",
+                "short_name": "hatha",
                 "bengali_name": "হাঠহাজারী",
                 "website": "",
                 "longitude": "",
@@ -604,7 +606,7 @@
             },
             {
                 "name": "Lohagara Upazila",
-                "short_name": "loh",
+                "short_name": "lohag",
                 "bengali_name": "লোহাগারা",
                 "website": "",
                 "longitude": "",
@@ -612,7 +614,7 @@
             },
             {
                 "name": "Mirsharai Upazila",
-                "short_name": "mir",
+                "short_name": "mirsh",
                 "bengali_name": "মিরসরাই",
                 "website": "",
                 "longitude": "",
@@ -620,7 +622,7 @@
             },
             {
                 "name": "Patiya Upazila",
-                "short_name": "pat",
+                "short_name": "patiy",
                 "bengali_name": "পটিয়া",
                 "website": "",
                 "longitude": "",
@@ -628,7 +630,7 @@
             },
             {
                 "name": "Rangunia Upazila",
-                "short_name": "ran",
+                "short_name": "rangu",
                 "bengali_name": "রাঙ্গুনিয়া",
                 "website": "",
                 "longitude": "",
@@ -636,7 +638,7 @@
             },
             {
                 "name": "Raozan Upazila",
-                "short_name": "rao",
+                "short_name": "raoza",
                 "bengali_name": "রাউজান",
                 "website": "",
                 "longitude": "",
@@ -644,7 +646,7 @@
             },
             {
                 "name": "Sandwip Upazila",
-                "short_name": "san",
+                "short_name": "sandw",
                 "bengali_name": "সন্দ্বীপ",
                 "website": "",
                 "longitude": "",
@@ -652,7 +654,7 @@
             },
             {
                 "name": "Satkania Upazila",
-                "short_name": "sat",
+                "short_name": "satka",
                 "bengali_name": "সাতকানিয়া",
                 "website": "",
                 "longitude": "",
@@ -660,17 +662,17 @@
             },
             {
                 "name": "Sitakunda Upazila",
-                "short_name": "sit",
+                "short_name": "sitak",
                 "bengali_name": "সীতাকুণ্ড",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "cum": [
+        "cumil": [
             {
                 "name": "Barura Upazila",
-                "short_name": "bar",
+                "short_name": "barur",
                 "bengali_name": "বড়ুরা",
                 "website": "",
                 "longitude": "",
@@ -678,7 +680,7 @@
             },
             {
                 "name": "Brahmanpara Upazila",
-                "short_name": "bra",
+                "short_name": "brahm",
                 "bengali_name": "ব্রাহ্মণপাড়া",
                 "website": "",
                 "longitude": "",
@@ -686,7 +688,7 @@
             },
             {
                 "name": "Burichong Upazila",
-                "short_name": "bur",
+                "short_name": "buric",
                 "bengali_name": "বুড়িচং",
                 "website": "",
                 "longitude": "",
@@ -694,7 +696,7 @@
             },
             {
                 "name": "Chandina Upazila",
-                "short_name": "cha",
+                "short_name": "chand",
                 "bengali_name": "চান্দিনা",
                 "website": "",
                 "longitude": "",
@@ -702,7 +704,7 @@
             },
             {
                 "name": "Chauddagram Upazila",
-                "short_name": "cha",
+                "short_name": "chaud",
                 "bengali_name": "চৌদ্দগ্রাম",
                 "website": "",
                 "longitude": "",
@@ -710,7 +712,7 @@
             },
             {
                 "name": "Daudkandi Upazila",
-                "short_name": "dau",
+                "short_name": "daudk",
                 "bengali_name": "দাউদকান্দি",
                 "website": "",
                 "longitude": "",
@@ -718,7 +720,7 @@
             },
             {
                 "name": "Debidwar Upazila",
-                "short_name": "deb",
+                "short_name": "debid",
                 "bengali_name": "দেবীদ্বার",
                 "website": "",
                 "longitude": "",
@@ -726,15 +728,15 @@
             },
             {
                 "name": "Homna Upazila",
-                "short_name": "hom",
+                "short_name": "homna",
                 "bengali_name": "হোমনা",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             },
             {
-                "name": "Cumilla Sadar Upazila",
-                "short_name": "cum",
+                "name": "Comilla Sadar Upazila",
+                "short_name": "comil",
                 "bengali_name": "কুমিল্লা সদর",
                 "website": "",
                 "longitude": "",
@@ -742,7 +744,7 @@
             },
             {
                 "name": "Laksam Upazila",
-                "short_name": "lak",
+                "short_name": "laksa",
                 "bengali_name": "লাকসাম",
                 "website": "",
                 "longitude": "",
@@ -750,7 +752,7 @@
             },
             {
                 "name": "Monohorgonj Upazila",
-                "short_name": "mon",
+                "short_name": "monoh",
                 "bengali_name": "মনোহরগঞ্জ",
                 "website": "",
                 "longitude": "",
@@ -758,7 +760,7 @@
             },
             {
                 "name": "Meghna Upazila",
-                "short_name": "meg",
+                "short_name": "meghn",
                 "bengali_name": "মেঘনা",
                 "website": "",
                 "longitude": "",
@@ -766,7 +768,7 @@
             },
             {
                 "name": "Muradnagar Upazila",
-                "short_name": "mur",
+                "short_name": "murad",
                 "bengali_name": "মুরাদনগর",
                 "website": "",
                 "longitude": "",
@@ -774,15 +776,15 @@
             },
             {
                 "name": "Nangalkot Upazila",
-                "short_name": "nan",
+                "short_name": "nanga",
                 "bengali_name": "নাঙ্গালকোট",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             },
             {
-                "name": "Cumilla Sadar South Upazila",
-                "short_name": "cum",
+                "name": "Comilla Sadar South Upazila",
+                "short_name": "comil",
                 "bengali_name": "কুমিল্লা সদর দক্ষিণ",
                 "website": "",
                 "longitude": "",
@@ -790,17 +792,17 @@
             },
             {
                 "name": "Titas Upazila",
-                "short_name": "tit",
+                "short_name": "titas",
                 "bengali_name": "তিতাস",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "cox": [
+        "cox's": [
             {
                 "name": "Chakaria Upazila",
-                "short_name": "cha",
+                "short_name": "chaka",
                 "bengali_name": "চকরিয়া",
                 "website": "",
                 "longitude": "",
@@ -808,7 +810,7 @@
             },
             {
                 "name": "Cox's Bazar Sadar Upazila",
-                "short_name": "cox",
+                "short_name": "cox's",
                 "bengali_name": "কক্স বাজার সদর",
                 "website": "",
                 "longitude": "",
@@ -816,7 +818,7 @@
             },
             {
                 "name": "Kutubdia Upazila",
-                "short_name": "kut",
+                "short_name": "kutub",
                 "bengali_name": "কুতুবদিয়া",
                 "website": "",
                 "longitude": "",
@@ -824,7 +826,7 @@
             },
             {
                 "name": "Maheshkhali Upazila",
-                "short_name": "mah",
+                "short_name": "mahes",
                 "bengali_name": "মহেশখালী",
                 "website": "",
                 "longitude": "",
@@ -832,7 +834,7 @@
             },
             {
                 "name": "Ramu Upazila",
-                "short_name": "ram",
+                "short_name": "ramu ",
                 "bengali_name": "রামু",
                 "website": "",
                 "longitude": "",
@@ -840,7 +842,7 @@
             },
             {
                 "name": "Teknaf Upazila",
-                "short_name": "tek",
+                "short_name": "tekna",
                 "bengali_name": "টেকনাফ",
                 "website": "",
                 "longitude": "",
@@ -848,7 +850,7 @@
             },
             {
                 "name": "Ukhia Upazila",
-                "short_name": "ukh",
+                "short_name": "ukhia",
                 "bengali_name": "উখিয়া",
                 "website": "",
                 "longitude": "",
@@ -856,17 +858,17 @@
             },
             {
                 "name": "Pekua Upazila",
-                "short_name": "pek",
+                "short_name": "pekua",
                 "bengali_name": "পেকুয়া",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "fen": [
+        "feni": [
             {
                 "name": "Feni Sadar",
-                "short_name": "fen",
+                "short_name": "feni ",
                 "bengali_name": "ফেনী সদর",
                 "website": "",
                 "longitude": "",
@@ -874,7 +876,7 @@
             },
             {
                 "name": "Chagalnaiya",
-                "short_name": "cha",
+                "short_name": "chaga",
                 "bengali_name": "ছাগল নাইয়া",
                 "website": "",
                 "longitude": "",
@@ -882,7 +884,7 @@
             },
             {
                 "name": "Daganbhyan",
-                "short_name": "dag",
+                "short_name": "dagan",
                 "bengali_name": "দাগানভিয়া",
                 "website": "",
                 "longitude": "",
@@ -890,7 +892,7 @@
             },
             {
                 "name": "Parshuram",
-                "short_name": "par",
+                "short_name": "parsh",
                 "bengali_name": "পরশুরাম",
                 "website": "",
                 "longitude": "",
@@ -898,7 +900,7 @@
             },
             {
                 "name": "Fhulgazi",
-                "short_name": "fhu",
+                "short_name": "fhulg",
                 "bengali_name": "ফুলগাজি",
                 "website": "",
                 "longitude": "",
@@ -906,17 +908,17 @@
             },
             {
                 "name": "Sonagazi",
-                "short_name": "son",
+                "short_name": "sonag",
                 "bengali_name": "সোনাগাজি",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "kha": [
+        "khagr": [
             {
                 "name": "Dighinala Upazila",
-                "short_name": "dig",
+                "short_name": "dighi",
                 "bengali_name": "দিঘিনালা ",
                 "website": "",
                 "longitude": "",
@@ -924,7 +926,7 @@
             },
             {
                 "name": "Khagrachhari Upazila",
-                "short_name": "kha",
+                "short_name": "khagr",
                 "bengali_name": "খাগড়াছড়ি",
                 "website": "",
                 "longitude": "",
@@ -932,7 +934,7 @@
             },
             {
                 "name": "Lakshmichhari Upazila",
-                "short_name": "lak",
+                "short_name": "laksh",
                 "bengali_name": "লক্ষ্মীছড়ি",
                 "website": "",
                 "longitude": "",
@@ -940,7 +942,7 @@
             },
             {
                 "name": "Mahalchhari Upazila",
-                "short_name": "mah",
+                "short_name": "mahal",
                 "bengali_name": "মহলছড়ি",
                 "website": "",
                 "longitude": "",
@@ -948,7 +950,7 @@
             },
             {
                 "name": "Manikchhari Upazila",
-                "short_name": "man",
+                "short_name": "manik",
                 "bengali_name": "মানিকছড়ি",
                 "website": "",
                 "longitude": "",
@@ -956,7 +958,7 @@
             },
             {
                 "name": "Matiranga Upazila",
-                "short_name": "mat",
+                "short_name": "matir",
                 "bengali_name": "মাটিরাঙ্গা",
                 "website": "",
                 "longitude": "",
@@ -964,7 +966,7 @@
             },
             {
                 "name": "Panchhari Upazila",
-                "short_name": "pan",
+                "short_name": "panch",
                 "bengali_name": "পানছড়ি",
                 "website": "",
                 "longitude": "",
@@ -972,17 +974,17 @@
             },
             {
                 "name": "Ramgarh Upazila",
-                "short_name": "ram",
+                "short_name": "ramga",
                 "bengali_name": "রামগড়",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "lak": [
+        "laksh": [
             {
                 "name": "Lakshmipur Sadar Upazila",
-                "short_name": "lak",
+                "short_name": "laksh",
                 "bengali_name": "লক্ষ্মীপুর সদর",
                 "website": "",
                 "longitude": "",
@@ -990,7 +992,7 @@
             },
             {
                 "name": "Raipur Upazila",
-                "short_name": "rai",
+                "short_name": "raipu",
                 "bengali_name": "রায়পুর",
                 "website": "",
                 "longitude": "",
@@ -998,7 +1000,7 @@
             },
             {
                 "name": "Ramganj Upazila",
-                "short_name": "ram",
+                "short_name": "ramga",
                 "bengali_name": "রামগঞ্জ",
                 "website": "",
                 "longitude": "",
@@ -1006,7 +1008,7 @@
             },
             {
                 "name": "Ramgati Upazila",
-                "short_name": "ram",
+                "short_name": "ramga",
                 "bengali_name": "রামগতি",
                 "website": "",
                 "longitude": "",
@@ -1014,17 +1016,17 @@
             },
             {
                 "name": "Komol Nagar Upazila",
-                "short_name": "kom",
+                "short_name": "komol",
                 "bengali_name": "কমল নগর",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "noa": [
+        "noakh": [
             {
                 "name": "Noakhali Sadar Upazila",
-                "short_name": "noa",
+                "short_name": "noakh",
                 "bengali_name": "নোয়াখালী সদর",
                 "website": "",
                 "longitude": "",
@@ -1032,7 +1034,7 @@
             },
             {
                 "name": "Begumganj Upazila",
-                "short_name": "beg",
+                "short_name": "begum",
                 "bengali_name": "বেগমগঞ্জ",
                 "website": "",
                 "longitude": "",
@@ -1040,7 +1042,7 @@
             },
             {
                 "name": "Chatkhil Upazila",
-                "short_name": "cha",
+                "short_name": "chatk",
                 "bengali_name": "চাটখিল",
                 "website": "",
                 "longitude": "",
@@ -1048,7 +1050,7 @@
             },
             {
                 "name": "Companyganj Upazila",
-                "short_name": "com",
+                "short_name": "compa",
                 "bengali_name": "কোম্পানীগঞ্জ",
                 "website": "",
                 "longitude": "",
@@ -1056,7 +1058,7 @@
             },
             {
                 "name": "Shenbag Upazila",
-                "short_name": "she",
+                "short_name": "shenb",
                 "bengali_name": "শেনবাগ",
                 "website": "",
                 "longitude": "",
@@ -1064,7 +1066,7 @@
             },
             {
                 "name": "Hatia Upazila",
-                "short_name": "hat",
+                "short_name": "hatia",
                 "bengali_name": "হাতিয়া",
                 "website": "",
                 "longitude": "",
@@ -1072,7 +1074,7 @@
             },
             {
                 "name": "Kobirhat Upazila",
-                "short_name": "kob",
+                "short_name": "kobir",
                 "bengali_name": "কবিরহাট ",
                 "website": "",
                 "longitude": "",
@@ -1080,7 +1082,7 @@
             },
             {
                 "name": "Sonaimuri Upazila",
-                "short_name": "son",
+                "short_name": "sonai",
                 "bengali_name": "সোনাইমুরি",
                 "website": "",
                 "longitude": "",
@@ -1088,17 +1090,17 @@
             },
             {
                 "name": "Suborno Char Upazila",
-                "short_name": "sub",
+                "short_name": "subor",
                 "bengali_name": "সুবর্ণ চর ",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "ran": [
+        "ranga": [
             {
                 "name": "Rangamati Sadar Upazila",
-                "short_name": "ran",
+                "short_name": "ranga",
                 "bengali_name": "রাঙ্গামাটি সদর",
                 "website": "",
                 "longitude": "",
@@ -1106,7 +1108,7 @@
             },
             {
                 "name": "Belaichhari Upazila",
-                "short_name": "bel",
+                "short_name": "belai",
                 "bengali_name": "বেলাইছড়ি",
                 "website": "",
                 "longitude": "",
@@ -1114,7 +1116,7 @@
             },
             {
                 "name": "Bagaichhari Upazila",
-                "short_name": "bag",
+                "short_name": "bagai",
                 "bengali_name": "বাঘাইছড়ি",
                 "website": "",
                 "longitude": "",
@@ -1122,7 +1124,7 @@
             },
             {
                 "name": "Barkal Upazila",
-                "short_name": "bar",
+                "short_name": "barka",
                 "bengali_name": "বরকল",
                 "website": "",
                 "longitude": "",
@@ -1130,7 +1132,7 @@
             },
             {
                 "name": "Juraichhari Upazila",
-                "short_name": "jur",
+                "short_name": "jurai",
                 "bengali_name": "জুরাইছড়ি",
                 "website": "",
                 "longitude": "",
@@ -1138,7 +1140,7 @@
             },
             {
                 "name": "Rajasthali Upazila",
-                "short_name": "raj",
+                "short_name": "rajas",
                 "bengali_name": "রাজাস্থলি",
                 "website": "",
                 "longitude": "",
@@ -1146,7 +1148,7 @@
             },
             {
                 "name": "Kaptai Upazila",
-                "short_name": "kap",
+                "short_name": "kapta",
                 "bengali_name": "কাপ্তাই",
                 "website": "",
                 "longitude": "",
@@ -1154,7 +1156,7 @@
             },
             {
                 "name": "Langadu Upazila",
-                "short_name": "lan",
+                "short_name": "langa",
                 "bengali_name": "লাঙ্গাডু",
                 "website": "",
                 "longitude": "",
@@ -1162,7 +1164,7 @@
             },
             {
                 "name": "Nannerchar Upazila",
-                "short_name": "nan",
+                "short_name": "nanne",
                 "bengali_name": "নান্নেরচর ",
                 "website": "",
                 "longitude": "",
@@ -1170,81 +1172,17 @@
             },
             {
                 "name": "Kaukhali Upazila",
-                "short_name": "kau",
+                "short_name": "kaukh",
                 "bengali_name": "কাউখালি",
-                "website": "",
-                "longitude": "",
-                "latitude": ""
-            },
-            {
-                "name": "Badarganj",
-                "short_name": "bad",
-                "bengali_name": "বদরগঞ্জ",
-                "website": "",
-                "longitude": "",
-                "latitude": ""
-            },
-            {
-                "name": "Mithapukur",
-                "short_name": "mit",
-                "bengali_name": "মিঠাপুকুর",
-                "website": "",
-                "longitude": "",
-                "latitude": ""
-            },
-            {
-                "name": "Gangachara",
-                "short_name": "gan",
-                "bengali_name": "গঙ্গাচরা",
-                "website": "",
-                "longitude": "",
-                "latitude": ""
-            },
-            {
-                "name": "Kaunia",
-                "short_name": "kau",
-                "bengali_name": "কাউনিয়া",
-                "website": "",
-                "longitude": "",
-                "latitude": ""
-            },
-            {
-                "name": "Rangpur Sadar",
-                "short_name": "ran",
-                "bengali_name": "রংপুর সদর",
-                "website": "",
-                "longitude": "",
-                "latitude": ""
-            },
-            {
-                "name": "Pirgachha",
-                "short_name": "pir",
-                "bengali_name": "পীরগাছা",
-                "website": "",
-                "longitude": "",
-                "latitude": ""
-            },
-            {
-                "name": "Pirganj",
-                "short_name": "pir",
-                "bengali_name": "পীরগঞ্জ",
-                "website": "",
-                "longitude": "",
-                "latitude": ""
-            },
-            {
-                "name": "Taraganj",
-                "short_name": "tar",
-                "bengali_name": "তারাগঞ্জ",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "dha": [
+        "dhaka": [
             {
                 "name": "Dhamrai Upazila",
-                "short_name": "dha",
+                "short_name": "dhamr",
                 "bengali_name": "ধামরাই",
                 "website": "",
                 "longitude": "",
@@ -1252,7 +1190,7 @@
             },
             {
                 "name": "Dohar Upazila",
-                "short_name": "doh",
+                "short_name": "dohar",
                 "bengali_name": "দোহার",
                 "website": "",
                 "longitude": "",
@@ -1260,7 +1198,7 @@
             },
             {
                 "name": "Keraniganj Upazila",
-                "short_name": "ker",
+                "short_name": "keran",
                 "bengali_name": "কেরানীগঞ্জ",
                 "website": "",
                 "longitude": "",
@@ -1268,7 +1206,7 @@
             },
             {
                 "name": "Nawabganj Upazila",
-                "short_name": "naw",
+                "short_name": "nawab",
                 "bengali_name": "নবাবগঞ্জ",
                 "website": "",
                 "longitude": "",
@@ -1276,17 +1214,17 @@
             },
             {
                 "name": "Savar Upazila",
-                "short_name": "sav",
+                "short_name": "savar",
                 "bengali_name": "সাভার",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "far": [
+        "farid": [
             {
                 "name": "Faridpur Sadar Upazila",
-                "short_name": "far",
+                "short_name": "farid",
                 "bengali_name": "ফরিদপুর সদর",
                 "website": "",
                 "longitude": "",
@@ -1294,7 +1232,7 @@
             },
             {
                 "name": "Boalmari Upazila",
-                "short_name": "boa",
+                "short_name": "boalm",
                 "bengali_name": "বোয়ালমারী",
                 "website": "",
                 "longitude": "",
@@ -1302,7 +1240,7 @@
             },
             {
                 "name": "Alfadanga Upazila",
-                "short_name": "alf",
+                "short_name": "alfad",
                 "bengali_name": "আলফাডাঙ্গা",
                 "website": "",
                 "longitude": "",
@@ -1310,7 +1248,7 @@
             },
             {
                 "name": "Madhukhali Upazila",
-                "short_name": "mad",
+                "short_name": "madhu",
                 "bengali_name": "মধুখালি",
                 "website": "",
                 "longitude": "",
@@ -1318,7 +1256,7 @@
             },
             {
                 "name": "Bhanga Upazila",
-                "short_name": "bha",
+                "short_name": "bhang",
                 "bengali_name": "ভাঙ্গা",
                 "website": "",
                 "longitude": "",
@@ -1326,7 +1264,7 @@
             },
             {
                 "name": "Nagarkanda Upazila",
-                "short_name": "nag",
+                "short_name": "nagar",
                 "bengali_name": "নগরকান্ড",
                 "website": "",
                 "longitude": "",
@@ -1334,7 +1272,7 @@
             },
             {
                 "name": "Charbhadrasan Upazila",
-                "short_name": "cha",
+                "short_name": "charb",
                 "bengali_name": "চরভদ্রাসন ",
                 "website": "",
                 "longitude": "",
@@ -1342,7 +1280,7 @@
             },
             {
                 "name": "Sadarpur Upazila",
-                "short_name": "sad",
+                "short_name": "sadar",
                 "bengali_name": "সদরপুর",
                 "website": "",
                 "longitude": "",
@@ -1350,17 +1288,17 @@
             },
             {
                 "name": "Shaltha Upazila",
-                "short_name": "sha",
+                "short_name": "shalt",
                 "bengali_name": "শালথা",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "gaz": [
+        "gazip": [
             {
                 "name": "Gazipur Sadar-Joydebpur",
-                "short_name": "gaz",
+                "short_name": "gazip",
                 "bengali_name": "গাজীপুর সদর",
                 "website": "",
                 "longitude": "",
@@ -1368,7 +1306,7 @@
             },
             {
                 "name": "Kaliakior",
-                "short_name": "kal",
+                "short_name": "kalia",
                 "bengali_name": "কালিয়াকৈর",
                 "website": "",
                 "longitude": "",
@@ -1376,7 +1314,7 @@
             },
             {
                 "name": "Kapasia",
-                "short_name": "kap",
+                "short_name": "kapas",
                 "bengali_name": "কাপাসিয়া",
                 "website": "",
                 "longitude": "",
@@ -1384,7 +1322,7 @@
             },
             {
                 "name": "Sripur",
-                "short_name": "sri",
+                "short_name": "sripu",
                 "bengali_name": "শ্রীপুর",
                 "website": "",
                 "longitude": "",
@@ -1392,7 +1330,7 @@
             },
             {
                 "name": "Kaliganj",
-                "short_name": "kal",
+                "short_name": "kalig",
                 "bengali_name": "কালীগঞ্জ",
                 "website": "",
                 "longitude": "",
@@ -1400,17 +1338,17 @@
             },
             {
                 "name": "Tongi",
-                "short_name": "ton",
+                "short_name": "tongi",
                 "bengali_name": "টঙ্গি",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "gop": [
+        "gopal": [
             {
                 "name": "Gopalganj Sadar Upazila",
-                "short_name": "gop",
+                "short_name": "gopal",
                 "bengali_name": "গোপালগঞ্জ সদর",
                 "website": "",
                 "longitude": "",
@@ -1418,7 +1356,7 @@
             },
             {
                 "name": "Kashiani Upazila",
-                "short_name": "kas",
+                "short_name": "kashi",
                 "bengali_name": "কাশিয়ানি",
                 "website": "",
                 "longitude": "",
@@ -1426,7 +1364,7 @@
             },
             {
                 "name": "Kotalipara Upazila",
-                "short_name": "kot",
+                "short_name": "kotal",
                 "bengali_name": "কোটালিপাড়া",
                 "website": "",
                 "longitude": "",
@@ -1434,7 +1372,7 @@
             },
             {
                 "name": "Muksudpur Upazila",
-                "short_name": "muk",
+                "short_name": "muksu",
                 "bengali_name": "মুকসুদপুর",
                 "website": "",
                 "longitude": "",
@@ -1442,17 +1380,17 @@
             },
             {
                 "name": "Tungipara Upazila",
-                "short_name": "tun",
+                "short_name": "tungi",
                 "bengali_name": "টুঙ্গিপাড়া",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "kis": [
+        "kisho": [
             {
                 "name": "Astagram Upazila",
-                "short_name": "ast",
+                "short_name": "astag",
                 "bengali_name": "অষ্টগ্রাম",
                 "website": "",
                 "longitude": "",
@@ -1460,7 +1398,7 @@
             },
             {
                 "name": "Bajitpur Upazila",
-                "short_name": "baj",
+                "short_name": "bajit",
                 "bengali_name": "বাজিতপুর",
                 "website": "",
                 "longitude": "",
@@ -1468,7 +1406,7 @@
             },
             {
                 "name": "Bhairab Upazila",
-                "short_name": "bha",
+                "short_name": "bhair",
                 "bengali_name": "ভৈরব",
                 "website": "",
                 "longitude": "",
@@ -1476,7 +1414,7 @@
             },
             {
                 "name": "Hossainpur Upazila",
-                "short_name": "hos",
+                "short_name": "hossa",
                 "bengali_name": "হোসেনপুর ",
                 "website": "",
                 "longitude": "",
@@ -1484,7 +1422,7 @@
             },
             {
                 "name": "Itna Upazila",
-                "short_name": "itn",
+                "short_name": "itna ",
                 "bengali_name": "ইটনা",
                 "website": "",
                 "longitude": "",
@@ -1492,7 +1430,7 @@
             },
             {
                 "name": "Karimganj Upazila",
-                "short_name": "kar",
+                "short_name": "karim",
                 "bengali_name": "করিমগঞ্জ",
                 "website": "",
                 "longitude": "",
@@ -1500,7 +1438,7 @@
             },
             {
                 "name": "Katiadi Upazila",
-                "short_name": "kat",
+                "short_name": "katia",
                 "bengali_name": "কতিয়াদি",
                 "website": "",
                 "longitude": "",
@@ -1508,7 +1446,7 @@
             },
             {
                 "name": "Kishoreganj Sadar Upazila",
-                "short_name": "kis",
+                "short_name": "kisho",
                 "bengali_name": "কিশোরগঞ্জ সদর",
                 "website": "",
                 "longitude": "",
@@ -1516,7 +1454,7 @@
             },
             {
                 "name": "Kuliarchar Upazila",
-                "short_name": "kul",
+                "short_name": "kulia",
                 "bengali_name": "কুলিয়ারচর",
                 "website": "",
                 "longitude": "",
@@ -1524,7 +1462,7 @@
             },
             {
                 "name": "Mithamain Upazila",
-                "short_name": "mit",
+                "short_name": "mitha",
                 "bengali_name": "মিঠামাইন",
                 "website": "",
                 "longitude": "",
@@ -1532,7 +1470,7 @@
             },
             {
                 "name": "Nikli Upazila",
-                "short_name": "nik",
+                "short_name": "nikli",
                 "bengali_name": "নিকলি",
                 "website": "",
                 "longitude": "",
@@ -1540,7 +1478,7 @@
             },
             {
                 "name": "Pakundia Upazila",
-                "short_name": "pak",
+                "short_name": "pakun",
                 "bengali_name": "পাকুন্ডা",
                 "website": "",
                 "longitude": "",
@@ -1548,17 +1486,17 @@
             },
             {
                 "name": "Tarail Upazila",
-                "short_name": "tar",
+                "short_name": "tarai",
                 "bengali_name": "তাড়াইল",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "mad": [
+        "madar": [
             {
                 "name": "Madaripur Sadar",
-                "short_name": "mad",
+                "short_name": "madar",
                 "bengali_name": "মাদারীপুর সদর",
                 "website": "",
                 "longitude": "",
@@ -1566,7 +1504,7 @@
             },
             {
                 "name": "Kalkini",
-                "short_name": "kal",
+                "short_name": "kalki",
                 "bengali_name": "কালকিনি",
                 "website": "",
                 "longitude": "",
@@ -1574,7 +1512,7 @@
             },
             {
                 "name": "Rajoir",
-                "short_name": "raj",
+                "short_name": "rajoi",
                 "bengali_name": "রাজইর",
                 "website": "",
                 "longitude": "",
@@ -1582,17 +1520,17 @@
             },
             {
                 "name": "Shibchar",
-                "short_name": "shi",
+                "short_name": "shibc",
                 "bengali_name": "শিবচর",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "man": [
+        "manik": [
             {
                 "name": "Manikganj Sadar Upazila",
-                "short_name": "man",
+                "short_name": "manik",
                 "bengali_name": "মানিকগঞ্জ সদর",
                 "website": "",
                 "longitude": "",
@@ -1600,7 +1538,7 @@
             },
             {
                 "name": "Singair Upazila",
-                "short_name": "sin",
+                "short_name": "singa",
                 "bengali_name": "সিঙ্গাইর",
                 "website": "",
                 "longitude": "",
@@ -1608,7 +1546,7 @@
             },
             {
                 "name": "Shibalaya Upazila",
-                "short_name": "shi",
+                "short_name": "shiba",
                 "bengali_name": "শিবালয়",
                 "website": "",
                 "longitude": "",
@@ -1616,7 +1554,7 @@
             },
             {
                 "name": "Saturia Upazila",
-                "short_name": "sat",
+                "short_name": "satur",
                 "bengali_name": "সাঠুরিয়া",
                 "website": "",
                 "longitude": "",
@@ -1624,7 +1562,7 @@
             },
             {
                 "name": "Harirampur Upazila",
-                "short_name": "har",
+                "short_name": "harir",
                 "bengali_name": "হরিরামপুর",
                 "website": "",
                 "longitude": "",
@@ -1632,7 +1570,7 @@
             },
             {
                 "name": "Ghior Upazila",
-                "short_name": "ghi",
+                "short_name": "ghior",
                 "bengali_name": "ঘিওর",
                 "website": "",
                 "longitude": "",
@@ -1640,17 +1578,17 @@
             },
             {
                 "name": "Daulatpur Upazila",
-                "short_name": "dau",
+                "short_name": "daula",
                 "bengali_name": "দৌলতপুর",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "mun": [
+        "munsh": [
             {
                 "name": "Lohajang Upazila",
-                "short_name": "loh",
+                "short_name": "lohaj",
                 "bengali_name": "লোহাজং",
                 "website": "",
                 "longitude": "",
@@ -1658,7 +1596,7 @@
             },
             {
                 "name": "Sreenagar Upazila",
-                "short_name": "sre",
+                "short_name": "sreen",
                 "bengali_name": "শ্রীনগর",
                 "website": "",
                 "longitude": "",
@@ -1666,7 +1604,7 @@
             },
             {
                 "name": "Munshiganj Sadar Upazila",
-                "short_name": "mun",
+                "short_name": "munsh",
                 "bengali_name": "মুন্সিগঞ্জ সদর",
                 "website": "",
                 "longitude": "",
@@ -1674,7 +1612,7 @@
             },
             {
                 "name": "Sirajdikhan Upazila",
-                "short_name": "sir",
+                "short_name": "siraj",
                 "bengali_name": "সিরাজদিখান",
                 "website": "",
                 "longitude": "",
@@ -1682,7 +1620,7 @@
             },
             {
                 "name": "Tongibari Upazila",
-                "short_name": "ton",
+                "short_name": "tongi",
                 "bengali_name": "টঙ্গিবাড়ি",
                 "website": "",
                 "longitude": "",
@@ -1690,17 +1628,17 @@
             },
             {
                 "name": "Gazaria Upazila",
-                "short_name": "gaz",
+                "short_name": "gazar",
                 "bengali_name": "গজারিয়া",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "nar": [
+        "naray": [
             {
                 "name": "Araihazar Upazila",
-                "short_name": "ara",
+                "short_name": "araih",
                 "bengali_name": "আড়াইহাজার",
                 "website": "",
                 "longitude": "",
@@ -1708,7 +1646,7 @@
             },
             {
                 "name": "Sonargaon Upazila",
-                "short_name": "son",
+                "short_name": "sonar",
                 "bengali_name": "সোনারগাঁও",
                 "website": "",
                 "longitude": "",
@@ -1716,7 +1654,7 @@
             },
             {
                 "name": "Bandar",
-                "short_name": "ban",
+                "short_name": "banda",
                 "bengali_name": "বান্দার",
                 "website": "",
                 "longitude": "",
@@ -1724,7 +1662,7 @@
             },
             {
                 "name": "Naryanganj Sadar Upazila",
-                "short_name": "nar",
+                "short_name": "narya",
                 "bengali_name": "নারায়ানগঞ্জ সদর",
                 "website": "",
                 "longitude": "",
@@ -1732,7 +1670,7 @@
             },
             {
                 "name": "Rupganj Upazila",
-                "short_name": "rup",
+                "short_name": "rupga",
                 "bengali_name": "রূপগঞ্জ",
                 "website": "",
                 "longitude": "",
@@ -1740,15 +1678,17 @@
             },
             {
                 "name": "Siddirgonj Upazila",
-                "short_name": "sid",
+                "short_name": "siddi",
                 "bengali_name": "সিদ্ধিরগঞ্জ",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
-            },
+            }
+        ],
+        "narsi": [
             {
                 "name": "Belabo Upazila",
-                "short_name": "bel",
+                "short_name": "belab",
                 "bengali_name": "বেলাবো",
                 "website": "",
                 "longitude": "",
@@ -1756,7 +1696,7 @@
             },
             {
                 "name": "Monohardi Upazila",
-                "short_name": "mon",
+                "short_name": "monoh",
                 "bengali_name": "মনোহরদি",
                 "website": "",
                 "longitude": "",
@@ -1764,7 +1704,7 @@
             },
             {
                 "name": "Narsingdi Sadar Upazila",
-                "short_name": "nar",
+                "short_name": "narsi",
                 "bengali_name": "নরসিংদী সদর",
                 "website": "",
                 "longitude": "",
@@ -1772,7 +1712,7 @@
             },
             {
                 "name": "Palash Upazila",
-                "short_name": "pal",
+                "short_name": "palas",
                 "bengali_name": "পলাশ",
                 "website": "",
                 "longitude": "",
@@ -1780,7 +1720,7 @@
             },
             {
                 "name": "Raipura Upazila, Narsingdi",
-                "short_name": "rai",
+                "short_name": "raipu",
                 "bengali_name": "রায়পুর",
                 "website": "",
                 "longitude": "",
@@ -1788,41 +1728,17 @@
             },
             {
                 "name": "Shibpur Upazila",
-                "short_name": "shi",
+                "short_name": "shibp",
                 "bengali_name": "শিবপুর",
-                "website": "",
-                "longitude": "",
-                "latitude": ""
-            },
-            {
-                "name": "Narail-S Upazilla",
-                "short_name": "nar",
-                "bengali_name": "নড়াইল সদর",
-                "website": "",
-                "longitude": "",
-                "latitude": ""
-            },
-            {
-                "name": "Lohagara Upazilla",
-                "short_name": "loh",
-                "bengali_name": "লোহাগাড়া",
-                "website": "",
-                "longitude": "",
-                "latitude": ""
-            },
-            {
-                "name": "Kalia Upazilla",
-                "short_name": "kal",
-                "bengali_name": "কালিয়া",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "raj": [
+        "rajba": [
             {
                 "name": "Baliakandi Upazila",
-                "short_name": "bal",
+                "short_name": "balia",
                 "bengali_name": "বালিয়াকান্দি",
                 "website": "",
                 "longitude": "",
@@ -1830,7 +1746,7 @@
             },
             {
                 "name": "Goalandaghat Upazila",
-                "short_name": "goa",
+                "short_name": "goala",
                 "bengali_name": "গোয়ালন্দ ঘাট",
                 "website": "",
                 "longitude": "",
@@ -1838,7 +1754,7 @@
             },
             {
                 "name": "Pangsha Upazila",
-                "short_name": "pan",
+                "short_name": "pangs",
                 "bengali_name": "পাংশা",
                 "website": "",
                 "longitude": "",
@@ -1846,7 +1762,7 @@
             },
             {
                 "name": "Kalukhali Upazila",
-                "short_name": "kal",
+                "short_name": "kaluk",
                 "bengali_name": "কালুখালি",
                 "website": "",
                 "longitude": "",
@@ -1854,89 +1770,17 @@
             },
             {
                 "name": "Rajbari Sadar Upazila",
-                "short_name": "raj",
+                "short_name": "rajba",
                 "bengali_name": "রাজবাড়ি সদর",
-                "website": "",
-                "longitude": "",
-                "latitude": ""
-            },
-            {
-                "name": "Bagha",
-                "short_name": "bag",
-                "bengali_name": "বাঘা",
-                "website": "",
-                "longitude": "",
-                "latitude": ""
-            },
-            {
-                "name": "Bagmara",
-                "short_name": "bag",
-                "bengali_name": "বাগমারা",
-                "website": "",
-                "longitude": "",
-                "latitude": ""
-            },
-            {
-                "name": "Charghat",
-                "short_name": "cha",
-                "bengali_name": "চারঘাট",
-                "website": "",
-                "longitude": "",
-                "latitude": ""
-            },
-            {
-                "name": "Durgapur",
-                "short_name": "dur",
-                "bengali_name": "দুর্গাপুর",
-                "website": "",
-                "longitude": "",
-                "latitude": ""
-            },
-            {
-                "name": "Godagari",
-                "short_name": "god",
-                "bengali_name": "গোদাগারি",
-                "website": "",
-                "longitude": "",
-                "latitude": ""
-            },
-            {
-                "name": "Mohanpur",
-                "short_name": "moh",
-                "bengali_name": "মোহনপুর",
-                "website": "",
-                "longitude": "",
-                "latitude": ""
-            },
-            {
-                "name": "Paba",
-                "short_name": "pab",
-                "bengali_name": "পবা",
-                "website": "",
-                "longitude": "",
-                "latitude": ""
-            },
-            {
-                "name": "Puthia",
-                "short_name": "put",
-                "bengali_name": "পুঠিয়া",
-                "website": "",
-                "longitude": "",
-                "latitude": ""
-            },
-            {
-                "name": "Tanore",
-                "short_name": "tan",
-                "bengali_name": "তানোর",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "sha": [
+        "shari": [
             {
                 "name": "Shariatpur Sadar -Palong",
-                "short_name": "sha",
+                "short_name": "shari",
                 "bengali_name": "শরীয়তপুর সদর ",
                 "website": "",
                 "longitude": "",
@@ -1944,7 +1788,7 @@
             },
             {
                 "name": "Damudya Upazila",
-                "short_name": "dam",
+                "short_name": "damud",
                 "bengali_name": "দামুদিয়া",
                 "website": "",
                 "longitude": "",
@@ -1952,7 +1796,7 @@
             },
             {
                 "name": "Naria Upazila",
-                "short_name": "nar",
+                "short_name": "naria",
                 "bengali_name": "নড়িয়া",
                 "website": "",
                 "longitude": "",
@@ -1960,7 +1804,7 @@
             },
             {
                 "name": "Jajira Upazila",
-                "short_name": "jaj",
+                "short_name": "jajir",
                 "bengali_name": "জাজিরা",
                 "website": "",
                 "longitude": "",
@@ -1968,7 +1812,7 @@
             },
             {
                 "name": "Bhedarganj Upazila",
-                "short_name": "bhe",
+                "short_name": "bheda",
                 "bengali_name": "ভেদারগঞ্জ",
                 "website": "",
                 "longitude": "",
@@ -1976,17 +1820,17 @@
             },
             {
                 "name": "Gosairhat Upazila",
-                "short_name": "gos",
+                "short_name": "gosai",
                 "bengali_name": "গোসাইর হাট ",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "tan": [
+        "tanga": [
             {
                 "name": "Tangail Sadar Upazila",
-                "short_name": "tan",
+                "short_name": "tanga",
                 "bengali_name": "টাঙ্গাইল সদর",
                 "website": "",
                 "longitude": "",
@@ -1994,7 +1838,7 @@
             },
             {
                 "name": "Sakhipur Upazila",
-                "short_name": "sak",
+                "short_name": "sakhi",
                 "bengali_name": "সখিপুর",
                 "website": "",
                 "longitude": "",
@@ -2002,7 +1846,7 @@
             },
             {
                 "name": "Basail Upazila",
-                "short_name": "bas",
+                "short_name": "basai",
                 "bengali_name": "বসাইল",
                 "website": "",
                 "longitude": "",
@@ -2010,7 +1854,7 @@
             },
             {
                 "name": "Madhupur Upazila",
-                "short_name": "mad",
+                "short_name": "madhu",
                 "bengali_name": "মধুপুর",
                 "website": "",
                 "longitude": "",
@@ -2018,7 +1862,7 @@
             },
             {
                 "name": "Ghatail Upazila",
-                "short_name": "gha",
+                "short_name": "ghata",
                 "bengali_name": "ঘাটাইল",
                 "website": "",
                 "longitude": "",
@@ -2026,7 +1870,7 @@
             },
             {
                 "name": "Kalihati Upazila",
-                "short_name": "kal",
+                "short_name": "kalih",
                 "bengali_name": "কালিহাতি",
                 "website": "",
                 "longitude": "",
@@ -2034,7 +1878,7 @@
             },
             {
                 "name": "Nagarpur Upazila",
-                "short_name": "nag",
+                "short_name": "nagar",
                 "bengali_name": "নগরপুর",
                 "website": "",
                 "longitude": "",
@@ -2042,7 +1886,7 @@
             },
             {
                 "name": "Mirzapur Upazila",
-                "short_name": "mir",
+                "short_name": "mirza",
                 "bengali_name": "মির্জাপুর",
                 "website": "",
                 "longitude": "",
@@ -2050,7 +1894,7 @@
             },
             {
                 "name": "Gopalpur Upazila",
-                "short_name": "gop",
+                "short_name": "gopal",
                 "bengali_name": "গোপালপুর",
                 "website": "",
                 "longitude": "",
@@ -2058,7 +1902,7 @@
             },
             {
                 "name": "Delduar Upazila",
-                "short_name": "del",
+                "short_name": "deldu",
                 "bengali_name": "দেলদুয়ার",
                 "website": "",
                 "longitude": "",
@@ -2066,7 +1910,7 @@
             },
             {
                 "name": "Bhuapur Upazila",
-                "short_name": "bhu",
+                "short_name": "bhuap",
                 "bengali_name": "ভুয়াপুর",
                 "website": "",
                 "longitude": "",
@@ -2074,17 +1918,17 @@
             },
             {
                 "name": "Dhanbari Upazila",
-                "short_name": "dha",
+                "short_name": "dhanb",
                 "bengali_name": "ধানবাড়ি",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "bag": [
+        "bager": [
             {
                 "name": "Bagerhat Sadar Upazila",
-                "short_name": "bag",
+                "short_name": "bager",
                 "bengali_name": "বাগেরহাট সদর",
                 "website": "",
                 "longitude": "",
@@ -2092,7 +1936,7 @@
             },
             {
                 "name": "Chitalmari Upazila",
-                "short_name": "chi",
+                "short_name": "chita",
                 "bengali_name": "চিতলমাড়ি",
                 "website": "",
                 "longitude": "",
@@ -2100,7 +1944,7 @@
             },
             {
                 "name": "Fakirhat Upazila",
-                "short_name": "fak",
+                "short_name": "fakir",
                 "bengali_name": "ফকিরহাট",
                 "website": "",
                 "longitude": "",
@@ -2108,7 +1952,7 @@
             },
             {
                 "name": "Kachua Upazila",
-                "short_name": "kac",
+                "short_name": "kachu",
                 "bengali_name": "কচুয়া",
                 "website": "",
                 "longitude": "",
@@ -2116,7 +1960,7 @@
             },
             {
                 "name": "Mollahat Upazila",
-                "short_name": "mol",
+                "short_name": "molla",
                 "bengali_name": "মোল্লাহাট ",
                 "website": "",
                 "longitude": "",
@@ -2124,7 +1968,7 @@
             },
             {
                 "name": "Mongla Upazila",
-                "short_name": "mon",
+                "short_name": "mongl",
                 "bengali_name": "মংলা",
                 "website": "",
                 "longitude": "",
@@ -2132,7 +1976,7 @@
             },
             {
                 "name": "Morrelganj Upazila",
-                "short_name": "mor",
+                "short_name": "morre",
                 "bengali_name": "মরেলগঞ্জ",
                 "website": "",
                 "longitude": "",
@@ -2140,7 +1984,7 @@
             },
             {
                 "name": "Rampal Upazila",
-                "short_name": "ram",
+                "short_name": "rampa",
                 "bengali_name": "রামপাল",
                 "website": "",
                 "longitude": "",
@@ -2148,17 +1992,17 @@
             },
             {
                 "name": "Sarankhola Upazila",
-                "short_name": "sar",
+                "short_name": "saran",
                 "bengali_name": "স্মরণখোলা",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "chu": [
+        "chuad": [
             {
                 "name": "Damurhuda Upazila",
-                "short_name": "dam",
+                "short_name": "damur",
                 "bengali_name": "দামুরহুদা",
                 "website": "",
                 "longitude": "",
@@ -2166,7 +2010,7 @@
             },
             {
                 "name": "Chuadanga-S Upazila",
-                "short_name": "chu",
+                "short_name": "chuad",
                 "bengali_name": "চুয়াডাঙ্গা সদর",
                 "website": "",
                 "longitude": "",
@@ -2174,7 +2018,7 @@
             },
             {
                 "name": "Jibannagar Upazila",
-                "short_name": "jib",
+                "short_name": "jiban",
                 "bengali_name": "জীবন নগর ",
                 "website": "",
                 "longitude": "",
@@ -2182,17 +2026,17 @@
             },
             {
                 "name": "Alamdanga Upazila",
-                "short_name": "ala",
+                "short_name": "alamd",
                 "bengali_name": "আলমডাঙ্গা",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "jes": [
+        "jasho": [
             {
                 "name": "Abhaynagar Upazila",
-                "short_name": "abh",
+                "short_name": "abhay",
                 "bengali_name": "অভয়নগর",
                 "website": "",
                 "longitude": "",
@@ -2200,7 +2044,7 @@
             },
             {
                 "name": "Keshabpur Upazila",
-                "short_name": "kes",
+                "short_name": "kesha",
                 "bengali_name": "কেশবপুর",
                 "website": "",
                 "longitude": "",
@@ -2208,15 +2052,15 @@
             },
             {
                 "name": "Bagherpara Upazila",
-                "short_name": "bag",
+                "short_name": "baghe",
                 "bengali_name": "বাঘের পাড়া ",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             },
             {
-                "name": "Jashore Sadar Upazila",
-                "short_name": "jas",
+                "name": "Jessore Sadar Upazila",
+                "short_name": "jesso",
                 "bengali_name": "যশোর সদর",
                 "website": "",
                 "longitude": "",
@@ -2224,7 +2068,7 @@
             },
             {
                 "name": "Chaugachha Upazila",
-                "short_name": "cha",
+                "short_name": "chaug",
                 "bengali_name": "চৌগাছা",
                 "website": "",
                 "longitude": "",
@@ -2232,7 +2076,7 @@
             },
             {
                 "name": "Manirampur Upazila",
-                "short_name": "man",
+                "short_name": "manir",
                 "bengali_name": "মনিরামপুর ",
                 "website": "",
                 "longitude": "",
@@ -2240,7 +2084,7 @@
             },
             {
                 "name": "Jhikargachha Upazila",
-                "short_name": "jhi",
+                "short_name": "jhika",
                 "bengali_name": "ঝিকরগাছা",
                 "website": "",
                 "longitude": "",
@@ -2248,17 +2092,17 @@
             },
             {
                 "name": "Sharsha Upazila",
-                "short_name": "sha",
+                "short_name": "shars",
                 "bengali_name": "সারশা",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "jhe": [
+        "jhena": [
             {
                 "name": "Jhenaidah Sadar Upazila",
-                "short_name": "jhe",
+                "short_name": "jhena",
                 "bengali_name": "ঝিনাইদহ সদর",
                 "website": "",
                 "longitude": "",
@@ -2266,7 +2110,7 @@
             },
             {
                 "name": "Maheshpur Upazila",
-                "short_name": "mah",
+                "short_name": "mahes",
                 "bengali_name": "মহেশপুর",
                 "website": "",
                 "longitude": "",
@@ -2274,7 +2118,7 @@
             },
             {
                 "name": "Kaliganj Upazila",
-                "short_name": "kal",
+                "short_name": "kalig",
                 "bengali_name": "কালীগঞ্জ",
                 "website": "",
                 "longitude": "",
@@ -2282,7 +2126,7 @@
             },
             {
                 "name": "Kotchandpur Upazila",
-                "short_name": "kot",
+                "short_name": "kotch",
                 "bengali_name": "কোট চাঁদপুর ",
                 "website": "",
                 "longitude": "",
@@ -2290,7 +2134,7 @@
             },
             {
                 "name": "Shailkupa Upazila",
-                "short_name": "sha",
+                "short_name": "shail",
                 "bengali_name": "শৈলকুপা",
                 "website": "",
                 "longitude": "",
@@ -2298,17 +2142,17 @@
             },
             {
                 "name": "Harinakunda Upazila",
-                "short_name": "har",
+                "short_name": "harin",
                 "bengali_name": "হাড়িনাকুন্দা",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "khu": [
+        "khuln": [
             {
                 "name": "Terokhada Upazila",
-                "short_name": "ter",
+                "short_name": "terok",
                 "bengali_name": "তেরোখাদা",
                 "website": "",
                 "longitude": "",
@@ -2316,7 +2160,7 @@
             },
             {
                 "name": "Batiaghata Upazila",
-                "short_name": "bat",
+                "short_name": "batia",
                 "bengali_name": "বাটিয়াঘাটা ",
                 "website": "",
                 "longitude": "",
@@ -2324,7 +2168,7 @@
             },
             {
                 "name": "Dacope Upazila",
-                "short_name": "dac",
+                "short_name": "dacop",
                 "bengali_name": "ডাকপে",
                 "website": "",
                 "longitude": "",
@@ -2332,7 +2176,7 @@
             },
             {
                 "name": "Dumuria Upazila",
-                "short_name": "dum",
+                "short_name": "dumur",
                 "bengali_name": "ডুমুরিয়া",
                 "website": "",
                 "longitude": "",
@@ -2340,7 +2184,7 @@
             },
             {
                 "name": "Dighalia Upazila",
-                "short_name": "dig",
+                "short_name": "digha",
                 "bengali_name": "দিঘলিয়া",
                 "website": "",
                 "longitude": "",
@@ -2348,7 +2192,7 @@
             },
             {
                 "name": "Koyra Upazila",
-                "short_name": "koy",
+                "short_name": "koyra",
                 "bengali_name": "কয়ড়া",
                 "website": "",
                 "longitude": "",
@@ -2356,7 +2200,7 @@
             },
             {
                 "name": "Paikgachha Upazila",
-                "short_name": "pai",
+                "short_name": "paikg",
                 "bengali_name": "পাইকগাছা",
                 "website": "",
                 "longitude": "",
@@ -2364,7 +2208,7 @@
             },
             {
                 "name": "Phultala Upazila",
-                "short_name": "phu",
+                "short_name": "phult",
                 "bengali_name": "ফুলতলা",
                 "website": "",
                 "longitude": "",
@@ -2372,17 +2216,17 @@
             },
             {
                 "name": "Rupsa Upazila",
-                "short_name": "rup",
+                "short_name": "rupsa",
                 "bengali_name": "রূপসা",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "kus": [
+        "kusht": [
             {
                 "name": "Kushtia Sadar",
-                "short_name": "kus",
+                "short_name": "kusht",
                 "bengali_name": "কুষ্টিয়া সদর",
                 "website": "",
                 "longitude": "",
@@ -2390,7 +2234,7 @@
             },
             {
                 "name": "Kumarkhali",
-                "short_name": "kum",
+                "short_name": "kumar",
                 "bengali_name": "কুমারখালি",
                 "website": "",
                 "longitude": "",
@@ -2398,7 +2242,7 @@
             },
             {
                 "name": "Daulatpur",
-                "short_name": "dau",
+                "short_name": "daula",
                 "bengali_name": "দৌলতপুর",
                 "website": "",
                 "longitude": "",
@@ -2406,7 +2250,7 @@
             },
             {
                 "name": "Mirpur",
-                "short_name": "mir",
+                "short_name": "mirpu",
                 "bengali_name": "মিরপুর",
                 "website": "",
                 "longitude": "",
@@ -2414,7 +2258,7 @@
             },
             {
                 "name": "Bheramara",
-                "short_name": "bhe",
+                "short_name": "bhera",
                 "bengali_name": "ভেরামারা",
                 "website": "",
                 "longitude": "",
@@ -2422,17 +2266,17 @@
             },
             {
                 "name": "Khoksa",
-                "short_name": "kho",
+                "short_name": "khoks",
                 "bengali_name": "খোকসা",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "mag": [
+        "magur": [
             {
                 "name": "Magura Sadar Upazila",
-                "short_name": "mag",
+                "short_name": "magur",
                 "bengali_name": "মাগুরা সদর",
                 "website": "",
                 "longitude": "",
@@ -2440,7 +2284,7 @@
             },
             {
                 "name": "Mohammadpur Upazila",
-                "short_name": "moh",
+                "short_name": "moham",
                 "bengali_name": "মোহাম্মাদপুর",
                 "website": "",
                 "longitude": "",
@@ -2448,7 +2292,7 @@
             },
             {
                 "name": "Shalikha Upazila",
-                "short_name": "sha",
+                "short_name": "shali",
                 "bengali_name": "শালিখা",
                 "website": "",
                 "longitude": "",
@@ -2456,17 +2300,17 @@
             },
             {
                 "name": "Sreepur Upazila",
-                "short_name": "sre",
+                "short_name": "sreep",
                 "bengali_name": "শ্রীপুর",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "meh": [
+        "meher": [
             {
                 "name": "angni Upazila",
-                "short_name": "ang",
+                "short_name": "angni",
                 "bengali_name": "আংনি",
                 "website": "",
                 "longitude": "",
@@ -2474,7 +2318,7 @@
             },
             {
                 "name": "Mujib Nagar Upazila",
-                "short_name": "muj",
+                "short_name": "mujib",
                 "bengali_name": "মুজিব নগর",
                 "website": "",
                 "longitude": "",
@@ -2482,17 +2326,43 @@
             },
             {
                 "name": "Meherpur-S Upazila",
-                "short_name": "meh",
+                "short_name": "meher",
                 "bengali_name": "মেহেরপুর সদর",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "sat": [
+        "narai": [
+            {
+                "name": "Narail-S Upazilla",
+                "short_name": "narai",
+                "bengali_name": "নড়াইল সদর",
+                "website": "",
+                "longitude": "",
+                "latitude": ""
+            },
+            {
+                "name": "Lohagara Upazilla",
+                "short_name": "lohag",
+                "bengali_name": "লোহাগাড়া",
+                "website": "",
+                "longitude": "",
+                "latitude": ""
+            },
+            {
+                "name": "Kalia Upazilla",
+                "short_name": "kalia",
+                "bengali_name": "কালিয়া",
+                "website": "",
+                "longitude": "",
+                "latitude": ""
+            }
+        ],
+        "satkh": [
             {
                 "name": "Satkhira Sadar Upazila",
-                "short_name": "sat",
+                "short_name": "satkh",
                 "bengali_name": "সাতক্ষীরা সদর",
                 "website": "",
                 "longitude": "",
@@ -2500,7 +2370,7 @@
             },
             {
                 "name": "Assasuni Upazila",
-                "short_name": "ass",
+                "short_name": "assas",
                 "bengali_name": "আসসাশুনি ",
                 "website": "",
                 "longitude": "",
@@ -2508,7 +2378,7 @@
             },
             {
                 "name": "Debhata Upazila",
-                "short_name": "deb",
+                "short_name": "debha",
                 "bengali_name": "দেভাটা",
                 "website": "",
                 "longitude": "",
@@ -2516,7 +2386,7 @@
             },
             {
                 "name": "Tala Upazila",
-                "short_name": "tal",
+                "short_name": "tala ",
                 "bengali_name": "তালা",
                 "website": "",
                 "longitude": "",
@@ -2524,7 +2394,7 @@
             },
             {
                 "name": "Kalaroa Upazila",
-                "short_name": "kal",
+                "short_name": "kalar",
                 "bengali_name": "কলরোয়া",
                 "website": "",
                 "longitude": "",
@@ -2532,7 +2402,7 @@
             },
             {
                 "name": "Kaliganj Upazila",
-                "short_name": "kal",
+                "short_name": "kalig",
                 "bengali_name": "কালীগঞ্জ",
                 "website": "",
                 "longitude": "",
@@ -2540,25 +2410,25 @@
             },
             {
                 "name": "Shyamnagar Upazila",
-                "short_name": "shy",
+                "short_name": "shyam",
                 "bengali_name": "শ্যামনগর",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "bog": [
+        "bogur": [
             {
                 "name": "Adamdighi",
-                "short_name": "ada",
+                "short_name": "adamd",
                 "bengali_name": "আদমদিঘী",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             },
             {
-                "name": "Bogura Sadar",
-                "short_name": "bog",
+                "name": "Bogra Sadar",
+                "short_name": "bogra",
                 "bengali_name": "বগুড়া সদর",
                 "website": "",
                 "longitude": "",
@@ -2566,7 +2436,7 @@
             },
             {
                 "name": "Sherpur",
-                "short_name": "she",
+                "short_name": "sherp",
                 "bengali_name": "শেরপুর",
                 "website": "",
                 "longitude": "",
@@ -2574,7 +2444,7 @@
             },
             {
                 "name": "Dhunat",
-                "short_name": "dhu",
+                "short_name": "dhuna",
                 "bengali_name": "ধুনট",
                 "website": "",
                 "longitude": "",
@@ -2582,7 +2452,7 @@
             },
             {
                 "name": "Dhupchanchia",
-                "short_name": "dhu",
+                "short_name": "dhupc",
                 "bengali_name": "দুপচাচিয়া",
                 "website": "",
                 "longitude": "",
@@ -2590,7 +2460,7 @@
             },
             {
                 "name": "Gabtali",
-                "short_name": "gab",
+                "short_name": "gabta",
                 "bengali_name": "গাবতলি",
                 "website": "",
                 "longitude": "",
@@ -2598,7 +2468,7 @@
             },
             {
                 "name": "Kahaloo",
-                "short_name": "kah",
+                "short_name": "kahal",
                 "bengali_name": "কাহালু",
                 "website": "",
                 "longitude": "",
@@ -2606,7 +2476,7 @@
             },
             {
                 "name": "Nandigram",
-                "short_name": "nan",
+                "short_name": "nandi",
                 "bengali_name": "নন্দিগ্রাম",
                 "website": "",
                 "longitude": "",
@@ -2614,7 +2484,7 @@
             },
             {
                 "name": "Sahajanpur",
-                "short_name": "sah",
+                "short_name": "sahaj",
                 "bengali_name": "শাহজাহানপুর",
                 "website": "",
                 "longitude": "",
@@ -2622,7 +2492,7 @@
             },
             {
                 "name": "Sariakandi",
-                "short_name": "sar",
+                "short_name": "saria",
                 "bengali_name": "সারিয়াকান্দি",
                 "website": "",
                 "longitude": "",
@@ -2630,7 +2500,7 @@
             },
             {
                 "name": "Shibganj",
-                "short_name": "shi",
+                "short_name": "shibg",
                 "bengali_name": "শিবগঞ্জ",
                 "website": "",
                 "longitude": "",
@@ -2638,17 +2508,17 @@
             },
             {
                 "name": "Sonatala",
-                "short_name": "son",
+                "short_name": "sonat",
                 "bengali_name": "সোনাতলা",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "joy": [
+        "joypu": [
             {
                 "name": "Joypurhat S",
-                "short_name": "joy",
+                "short_name": "joypu",
                 "bengali_name": "জয়পুরহাট সদর",
                 "website": "",
                 "longitude": "",
@@ -2656,7 +2526,7 @@
             },
             {
                 "name": "Akkelpur",
-                "short_name": "akk",
+                "short_name": "akkel",
                 "bengali_name": "আক্কেলপুর",
                 "website": "",
                 "longitude": "",
@@ -2664,7 +2534,7 @@
             },
             {
                 "name": "Kalai",
-                "short_name": "kal",
+                "short_name": "kalai",
                 "bengali_name": "কালাই",
                 "website": "",
                 "longitude": "",
@@ -2672,7 +2542,7 @@
             },
             {
                 "name": "Khetlal",
-                "short_name": "khe",
+                "short_name": "khetl",
                 "bengali_name": "খেতলাল",
                 "website": "",
                 "longitude": "",
@@ -2680,17 +2550,17 @@
             },
             {
                 "name": "Panchbibi",
-                "short_name": "pan",
+                "short_name": "panch",
                 "bengali_name": "পাঁচবিবি",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "nao": [
+        "naoga": [
             {
                 "name": "Naogaon Sadar Upazila",
-                "short_name": "nao",
+                "short_name": "naoga",
                 "bengali_name": "নওগাঁ সদর",
                 "website": "",
                 "longitude": "",
@@ -2698,7 +2568,7 @@
             },
             {
                 "name": "Mohadevpur Upazila",
-                "short_name": "moh",
+                "short_name": "mohad",
                 "bengali_name": "মহাদেবপুর",
                 "website": "",
                 "longitude": "",
@@ -2706,7 +2576,7 @@
             },
             {
                 "name": "Manda Upazila",
-                "short_name": "man",
+                "short_name": "manda",
                 "bengali_name": "মান্দা",
                 "website": "",
                 "longitude": "",
@@ -2714,7 +2584,7 @@
             },
             {
                 "name": "Niamatpur Upazila",
-                "short_name": "nia",
+                "short_name": "niama",
                 "bengali_name": "নিয়ামতপুর",
                 "website": "",
                 "longitude": "",
@@ -2722,7 +2592,7 @@
             },
             {
                 "name": "Atrai Upazila",
-                "short_name": "atr",
+                "short_name": "atrai",
                 "bengali_name": "আত্রাই",
                 "website": "",
                 "longitude": "",
@@ -2730,7 +2600,7 @@
             },
             {
                 "name": "Raninagar Upazila",
-                "short_name": "ran",
+                "short_name": "ranin",
                 "bengali_name": "রাণীনগর",
                 "website": "",
                 "longitude": "",
@@ -2738,7 +2608,7 @@
             },
             {
                 "name": "Patnitala Upazila",
-                "short_name": "pat",
+                "short_name": "patni",
                 "bengali_name": "পত্নীতলা",
                 "website": "",
                 "longitude": "",
@@ -2746,7 +2616,7 @@
             },
             {
                 "name": "Dhamoirhat Upazila",
-                "short_name": "dha",
+                "short_name": "dhamo",
                 "bengali_name": "ধামইরহাট ",
                 "website": "",
                 "longitude": "",
@@ -2754,7 +2624,7 @@
             },
             {
                 "name": "Sapahar Upazila",
-                "short_name": "sap",
+                "short_name": "sapah",
                 "bengali_name": "সাপাহার",
                 "website": "",
                 "longitude": "",
@@ -2762,7 +2632,7 @@
             },
             {
                 "name": "Porsha Upazila",
-                "short_name": "por",
+                "short_name": "porsh",
                 "bengali_name": "পোরশা",
                 "website": "",
                 "longitude": "",
@@ -2770,17 +2640,17 @@
             },
             {
                 "name": "Badalgachhi Upazila",
-                "short_name": "bad",
+                "short_name": "badal",
                 "bengali_name": "বদলগাছি",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "nat": [
+        "nator": [
             {
                 "name": "Natore Sadar Upazila",
-                "short_name": "nat",
+                "short_name": "nator",
                 "bengali_name": "নাটোর সদর",
                 "website": "",
                 "longitude": "",
@@ -2788,7 +2658,7 @@
             },
             {
                 "name": "Baraigram Upazila",
-                "short_name": "bar",
+                "short_name": "barai",
                 "bengali_name": "বড়াইগ্রাম",
                 "website": "",
                 "longitude": "",
@@ -2796,7 +2666,7 @@
             },
             {
                 "name": "Bagatipara Upazila",
-                "short_name": "bag",
+                "short_name": "bagat",
                 "bengali_name": "বাগাতিপাড়া",
                 "website": "",
                 "longitude": "",
@@ -2804,7 +2674,7 @@
             },
             {
                 "name": "Lalpur Upazila",
-                "short_name": "lal",
+                "short_name": "lalpu",
                 "bengali_name": "লালপুর",
                 "website": "",
                 "longitude": "",
@@ -2812,7 +2682,7 @@
             },
             {
                 "name": "Natore Sadar Upazila",
-                "short_name": "nat",
+                "short_name": "nator",
                 "bengali_name": "নাটোর সদর",
                 "website": "",
                 "longitude": "",
@@ -2820,17 +2690,17 @@
             },
             {
                 "name": "Baraigram Upazila",
-                "short_name": "bar",
+                "short_name": "barai",
                 "bengali_name": "বড়াই গ্রাম",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "naw": [
+        "chapa": [
             {
                 "name": "Bholahat Upazila",
-                "short_name": "bho",
+                "short_name": "bhola",
                 "bengali_name": "ভোলাহাট",
                 "website": "",
                 "longitude": "",
@@ -2838,7 +2708,7 @@
             },
             {
                 "name": "Gomastapur Upazila",
-                "short_name": "gom",
+                "short_name": "gomas",
                 "bengali_name": "গোমস্তাপুর",
                 "website": "",
                 "longitude": "",
@@ -2846,7 +2716,7 @@
             },
             {
                 "name": "Nachole Upazila",
-                "short_name": "nac",
+                "short_name": "nacho",
                 "bengali_name": "নাচোল",
                 "website": "",
                 "longitude": "",
@@ -2854,7 +2724,7 @@
             },
             {
                 "name": "Nawabganj Sadar Upazila",
-                "short_name": "naw",
+                "short_name": "nawab",
                 "bengali_name": "নবাবগঞ্জ সদর",
                 "website": "",
                 "longitude": "",
@@ -2862,17 +2732,17 @@
             },
             {
                 "name": "Shibganj Upazila",
-                "short_name": "shi",
+                "short_name": "shibg",
                 "bengali_name": "শিবগঞ্জ",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "pab": [
+        "pabna": [
             {
                 "name": "Atgharia Upazila",
-                "short_name": "atg",
+                "short_name": "atgha",
                 "bengali_name": "আটঘরিয়া",
                 "website": "",
                 "longitude": "",
@@ -2880,7 +2750,7 @@
             },
             {
                 "name": "Bera Upazila",
-                "short_name": "ber",
+                "short_name": "bera ",
                 "bengali_name": "বেড়া",
                 "website": "",
                 "longitude": "",
@@ -2888,7 +2758,7 @@
             },
             {
                 "name": "Bhangura Upazila",
-                "short_name": "bha",
+                "short_name": "bhang",
                 "bengali_name": "ভাঙ্গুরা",
                 "website": "",
                 "longitude": "",
@@ -2896,7 +2766,7 @@
             },
             {
                 "name": "Chatmohar Upazila",
-                "short_name": "cha",
+                "short_name": "chatm",
                 "bengali_name": "চাটমোহর",
                 "website": "",
                 "longitude": "",
@@ -2904,7 +2774,7 @@
             },
             {
                 "name": "Faridpur Upazila",
-                "short_name": "far",
+                "short_name": "farid",
                 "bengali_name": "ফরিদপুর",
                 "website": "",
                 "longitude": "",
@@ -2912,7 +2782,7 @@
             },
             {
                 "name": "Ishwardi Upazila",
-                "short_name": "ish",
+                "short_name": "ishwa",
                 "bengali_name": "ঈশ্বরদী",
                 "website": "",
                 "longitude": "",
@@ -2920,7 +2790,7 @@
             },
             {
                 "name": "Pabna Sadar Upazila",
-                "short_name": "pab",
+                "short_name": "pabna",
                 "bengali_name": "পাবনা সদর",
                 "website": "",
                 "longitude": "",
@@ -2928,7 +2798,7 @@
             },
             {
                 "name": "Santhia Upazila",
-                "short_name": "san",
+                "short_name": "santh",
                 "bengali_name": "সাথিয়া",
                 "website": "",
                 "longitude": "",
@@ -2936,17 +2806,91 @@
             },
             {
                 "name": "Sujanagar Upazila",
-                "short_name": "suj",
+                "short_name": "sujan",
                 "bengali_name": "সুজানগর",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "sir": [
+        "rajsh": [
+            {
+                "name": "Bagha",
+                "short_name": "bagha",
+                "bengali_name": "বাঘা",
+                "website": "",
+                "longitude": "",
+                "latitude": ""
+            },
+            {
+                "name": "Bagmara",
+                "short_name": "bagma",
+                "bengali_name": "বাগমারা",
+                "website": "",
+                "longitude": "",
+                "latitude": ""
+            },
+            {
+                "name": "Charghat",
+                "short_name": "charg",
+                "bengali_name": "চারঘাট",
+                "website": "",
+                "longitude": "",
+                "latitude": ""
+            },
+            {
+                "name": "Durgapur",
+                "short_name": "durga",
+                "bengali_name": "দুর্গাপুর",
+                "website": "",
+                "longitude": "",
+                "latitude": ""
+            },
+            {
+                "name": "Godagari",
+                "short_name": "godag",
+                "bengali_name": "গোদাগারি",
+                "website": "",
+                "longitude": "",
+                "latitude": ""
+            },
+            {
+                "name": "Mohanpur",
+                "short_name": "mohan",
+                "bengali_name": "মোহনপুর",
+                "website": "",
+                "longitude": "",
+                "latitude": ""
+            },
+            {
+                "name": "Paba",
+                "short_name": "paba",
+                "bengali_name": "পবা",
+                "website": "",
+                "longitude": "",
+                "latitude": ""
+            },
+            {
+                "name": "Puthia",
+                "short_name": "puthi",
+                "bengali_name": "পুঠিয়া",
+                "website": "",
+                "longitude": "",
+                "latitude": ""
+            },
+            {
+                "name": "Tanore",
+                "short_name": "tanor",
+                "bengali_name": "তানোর",
+                "website": "",
+                "longitude": "",
+                "latitude": ""
+            }
+        ],
+        "siraj": [
             {
                 "name": "Sirajganj Sadar Upazila",
-                "short_name": "sir",
+                "short_name": "siraj",
                 "bengali_name": "সিরাজগঞ্জ সদর",
                 "website": "",
                 "longitude": "",
@@ -2954,7 +2898,7 @@
             },
             {
                 "name": "Belkuchi Upazila",
-                "short_name": "bel",
+                "short_name": "belku",
                 "bengali_name": "বেলকুচি",
                 "website": "",
                 "longitude": "",
@@ -2962,7 +2906,7 @@
             },
             {
                 "name": "Chauhali Upazila",
-                "short_name": "cha",
+                "short_name": "chauh",
                 "bengali_name": "চৌহালি",
                 "website": "",
                 "longitude": "",
@@ -2970,7 +2914,7 @@
             },
             {
                 "name": "Kamarkhanda Upazila",
-                "short_name": "kam",
+                "short_name": "kamar",
                 "bengali_name": "কামারখান্দা",
                 "website": "",
                 "longitude": "",
@@ -2978,7 +2922,7 @@
             },
             {
                 "name": "Kazipur Upazila",
-                "short_name": "kaz",
+                "short_name": "kazip",
                 "bengali_name": "কাজীপুর",
                 "website": "",
                 "longitude": "",
@@ -2986,7 +2930,7 @@
             },
             {
                 "name": "Raiganj Upazila",
-                "short_name": "rai",
+                "short_name": "raiga",
                 "bengali_name": "রায়গঞ্জ",
                 "website": "",
                 "longitude": "",
@@ -2994,7 +2938,7 @@
             },
             {
                 "name": "Shahjadpur Upazila",
-                "short_name": "sha",
+                "short_name": "shahj",
                 "bengali_name": "শাহজাদপুর",
                 "website": "",
                 "longitude": "",
@@ -3002,7 +2946,7 @@
             },
             {
                 "name": "Tarash Upazila",
-                "short_name": "tar",
+                "short_name": "taras",
                 "bengali_name": "তারাশ",
                 "website": "",
                 "longitude": "",
@@ -3010,17 +2954,17 @@
             },
             {
                 "name": "Ullahpara Upazila",
-                "short_name": "ull",
+                "short_name": "ullah",
                 "bengali_name": "উল্লাপাড়া",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "din": [
+        "dinaj": [
             {
                 "name": "Birampur Upazila",
-                "short_name": "bir",
+                "short_name": "biram",
                 "bengali_name": "বিরামপুর",
                 "website": "",
                 "longitude": "",
@@ -3028,7 +2972,7 @@
             },
             {
                 "name": "Birganj",
-                "short_name": "bir",
+                "short_name": "birga",
                 "bengali_name": "বীরগঞ্জ",
                 "website": "",
                 "longitude": "",
@@ -3036,7 +2980,7 @@
             },
             {
                 "name": "Biral Upazila",
-                "short_name": "bir",
+                "short_name": "biral",
                 "bengali_name": "বিড়াল",
                 "website": "",
                 "longitude": "",
@@ -3044,7 +2988,7 @@
             },
             {
                 "name": "Bochaganj Upazila",
-                "short_name": "boc",
+                "short_name": "bocha",
                 "bengali_name": "বোচাগঞ্জ",
                 "website": "",
                 "longitude": "",
@@ -3052,7 +2996,7 @@
             },
             {
                 "name": "Chirirbandar Upazila",
-                "short_name": "chi",
+                "short_name": "chiri",
                 "bengali_name": "চিরিরবন্দর",
                 "website": "",
                 "longitude": "",
@@ -3060,7 +3004,7 @@
             },
             {
                 "name": "Phulbari Upazila",
-                "short_name": "phu",
+                "short_name": "phulb",
                 "bengali_name": "ফুলবাড়ি",
                 "website": "",
                 "longitude": "",
@@ -3068,7 +3012,7 @@
             },
             {
                 "name": "Ghoraghat Upazila",
-                "short_name": "gho",
+                "short_name": "ghora",
                 "bengali_name": "ঘোড়াঘাট",
                 "website": "",
                 "longitude": "",
@@ -3076,7 +3020,7 @@
             },
             {
                 "name": "Hakimpur Upazila",
-                "short_name": "hak",
+                "short_name": "hakim",
                 "bengali_name": "হাকিমপুর",
                 "website": "",
                 "longitude": "",
@@ -3084,7 +3028,7 @@
             },
             {
                 "name": "Kaharole Upazila",
-                "short_name": "kah",
+                "short_name": "kahar",
                 "bengali_name": "কাহারোল",
                 "website": "",
                 "longitude": "",
@@ -3092,7 +3036,7 @@
             },
             {
                 "name": "Khansama Upazila",
-                "short_name": "kha",
+                "short_name": "khans",
                 "bengali_name": "খানসামা",
                 "website": "",
                 "longitude": "",
@@ -3100,7 +3044,7 @@
             },
             {
                 "name": "Dinajpur Sadar Upazila",
-                "short_name": "din",
+                "short_name": "dinaj",
                 "bengali_name": "দিনাজপুর সদর",
                 "website": "",
                 "longitude": "",
@@ -3108,7 +3052,7 @@
             },
             {
                 "name": "Nawabganj",
-                "short_name": "naw",
+                "short_name": "nawab",
                 "bengali_name": "নবাবগঞ্জ",
                 "website": "",
                 "longitude": "",
@@ -3116,17 +3060,17 @@
             },
             {
                 "name": "Parbatipur Upazila",
-                "short_name": "par",
+                "short_name": "parba",
                 "bengali_name": "পার্বতীপুর",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "gai": [
+        "gaiba": [
             {
                 "name": "Fulchhari",
-                "short_name": "ful",
+                "short_name": "fulch",
                 "bengali_name": "ফুলছড়ি",
                 "website": "",
                 "longitude": "",
@@ -3134,7 +3078,7 @@
             },
             {
                 "name": "Gaibandha sadar",
-                "short_name": "gai",
+                "short_name": "gaiba",
                 "bengali_name": "গাইবান্ধা সদর",
                 "website": "",
                 "longitude": "",
@@ -3142,7 +3086,7 @@
             },
             {
                 "name": "Gobindaganj",
-                "short_name": "gob",
+                "short_name": "gobin",
                 "bengali_name": "গোবিন্দগঞ্জ",
                 "website": "",
                 "longitude": "",
@@ -3150,7 +3094,7 @@
             },
             {
                 "name": "Palashbari",
-                "short_name": "pal",
+                "short_name": "palas",
                 "bengali_name": "পলাশবাড়ী",
                 "website": "",
                 "longitude": "",
@@ -3158,7 +3102,7 @@
             },
             {
                 "name": "Sadullapur",
-                "short_name": "sad",
+                "short_name": "sadul",
                 "bengali_name": "সাদুল্যাপুর",
                 "website": "",
                 "longitude": "",
@@ -3166,7 +3110,7 @@
             },
             {
                 "name": "Saghata",
-                "short_name": "sag",
+                "short_name": "sagha",
                 "bengali_name": "সাঘাটা",
                 "website": "",
                 "longitude": "",
@@ -3174,17 +3118,17 @@
             },
             {
                 "name": "Sundarganj",
-                "short_name": "sun",
+                "short_name": "sunda",
                 "bengali_name": "সুন্দরগঞ্জ",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "kur": [
+        "kurig": [
             {
                 "name": "Kurigram Sadar",
-                "short_name": "kur",
+                "short_name": "kurig",
                 "bengali_name": "কুড়িগ্রাম সদর",
                 "website": "",
                 "longitude": "",
@@ -3192,7 +3136,7 @@
             },
             {
                 "name": "Nageshwari",
-                "short_name": "nag",
+                "short_name": "nages",
                 "bengali_name": "নাগেশ্বরী",
                 "website": "",
                 "longitude": "",
@@ -3200,7 +3144,7 @@
             },
             {
                 "name": "Bhurungamari",
-                "short_name": "bhu",
+                "short_name": "bhuru",
                 "bengali_name": "ভুরুঙ্গামারি",
                 "website": "",
                 "longitude": "",
@@ -3208,7 +3152,7 @@
             },
             {
                 "name": "Phulbari",
-                "short_name": "phu",
+                "short_name": "phulb",
                 "bengali_name": "ফুলবাড়ি",
                 "website": "",
                 "longitude": "",
@@ -3216,7 +3160,7 @@
             },
             {
                 "name": "Rajarhat",
-                "short_name": "raj",
+                "short_name": "rajar",
                 "bengali_name": "রাজারহাট",
                 "website": "",
                 "longitude": "",
@@ -3224,7 +3168,7 @@
             },
             {
                 "name": "Ulipur",
-                "short_name": "uli",
+                "short_name": "ulipu",
                 "bengali_name": "উলিপুর",
                 "website": "",
                 "longitude": "",
@@ -3232,7 +3176,7 @@
             },
             {
                 "name": "Chilmari",
-                "short_name": "chi",
+                "short_name": "chilm",
                 "bengali_name": "চিলমারি",
                 "website": "",
                 "longitude": "",
@@ -3240,7 +3184,7 @@
             },
             {
                 "name": "Rowmari",
-                "short_name": "row",
+                "short_name": "rowma",
                 "bengali_name": "রউমারি",
                 "website": "",
                 "longitude": "",
@@ -3248,17 +3192,17 @@
             },
             {
                 "name": "Char Rajibpur",
-                "short_name": "cha",
+                "short_name": "char ",
                 "bengali_name": "চর রাজিবপুর",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "lal": [
+        "lalmo": [
             {
                 "name": "Lalmanirhat Sadar",
-                "short_name": "lal",
+                "short_name": "lalma",
                 "bengali_name": "লালমনিরহাট সদর",
                 "website": "",
                 "longitude": "",
@@ -3266,7 +3210,7 @@
             },
             {
                 "name": "Aditmari",
-                "short_name": "adi",
+                "short_name": "aditm",
                 "bengali_name": "আদিতমারি",
                 "website": "",
                 "longitude": "",
@@ -3274,7 +3218,7 @@
             },
             {
                 "name": "Kaliganj",
-                "short_name": "kal",
+                "short_name": "kalig",
                 "bengali_name": "কালীগঞ্জ",
                 "website": "",
                 "longitude": "",
@@ -3282,7 +3226,7 @@
             },
             {
                 "name": "Hatibandha",
-                "short_name": "hat",
+                "short_name": "hatib",
                 "bengali_name": "হাতিবান্ধা",
                 "website": "",
                 "longitude": "",
@@ -3290,17 +3234,17 @@
             },
             {
                 "name": "Patgram",
-                "short_name": "pat",
+                "short_name": "patgr",
                 "bengali_name": "পাটগ্রাম",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "nil": [
+        "nilph": [
             {
                 "name": "Nilphamari Sadar",
-                "short_name": "nil",
+                "short_name": "nilph",
                 "bengali_name": "নীলফামারী সদর",
                 "website": "",
                 "longitude": "",
@@ -3308,7 +3252,7 @@
             },
             {
                 "name": "Saidpur",
-                "short_name": "sai",
+                "short_name": "saidp",
                 "bengali_name": "সৈয়দপুর",
                 "website": "",
                 "longitude": "",
@@ -3316,7 +3260,7 @@
             },
             {
                 "name": "Jaldhaka",
-                "short_name": "jal",
+                "short_name": "jaldh",
                 "bengali_name": "জলঢাকা",
                 "website": "",
                 "longitude": "",
@@ -3324,7 +3268,7 @@
             },
             {
                 "name": "Kishoreganj",
-                "short_name": "kis",
+                "short_name": "kisho",
                 "bengali_name": "কিশোরগঞ্জ",
                 "website": "",
                 "longitude": "",
@@ -3332,7 +3276,7 @@
             },
             {
                 "name": "Domar",
-                "short_name": "dom",
+                "short_name": "domar",
                 "bengali_name": "ডোমার",
                 "website": "",
                 "longitude": "",
@@ -3340,17 +3284,17 @@
             },
             {
                 "name": "Dimla",
-                "short_name": "dim",
+                "short_name": "dimla",
                 "bengali_name": "ডিমলা",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "pan": [
+        "panch": [
             {
                 "name": "Panchagarh Sadar",
-                "short_name": "pan",
+                "short_name": "panch",
                 "bengali_name": "পঞ্চগড় সদর",
                 "website": "",
                 "longitude": "",
@@ -3358,7 +3302,7 @@
             },
             {
                 "name": "Debiganj",
-                "short_name": "deb",
+                "short_name": "debig",
                 "bengali_name": "দেবীগঞ্জ",
                 "website": "",
                 "longitude": "",
@@ -3366,7 +3310,7 @@
             },
             {
                 "name": "Boda",
-                "short_name": "bod",
+                "short_name": "boda",
                 "bengali_name": "বোদা",
                 "website": "",
                 "longitude": "",
@@ -3374,7 +3318,7 @@
             },
             {
                 "name": "Atwari",
-                "short_name": "atw",
+                "short_name": "atwar",
                 "bengali_name": "আটোয়ারি",
                 "website": "",
                 "longitude": "",
@@ -3382,17 +3326,83 @@
             },
             {
                 "name": "Tetulia",
-                "short_name": "tet",
+                "short_name": "tetul",
                 "bengali_name": "তেতুলিয়া",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "tha": [
+        "rangp": [
+            {
+                "name": "Badarganj",
+                "short_name": "badar",
+                "bengali_name": "বদরগঞ্জ",
+                "website": "",
+                "longitude": "",
+                "latitude": ""
+            },
+            {
+                "name": "Mithapukur",
+                "short_name": "mitha",
+                "bengali_name": "মিঠাপুকুর",
+                "website": "",
+                "longitude": "",
+                "latitude": ""
+            },
+            {
+                "name": "Gangachara",
+                "short_name": "ganga",
+                "bengali_name": "গঙ্গাচরা",
+                "website": "",
+                "longitude": "",
+                "latitude": ""
+            },
+            {
+                "name": "Kaunia",
+                "short_name": "kauni",
+                "bengali_name": "কাউনিয়া",
+                "website": "",
+                "longitude": "",
+                "latitude": ""
+            },
+            {
+                "name": "Rangpur Sadar",
+                "short_name": "rangp",
+                "bengali_name": "রংপুর সদর",
+                "website": "",
+                "longitude": "",
+                "latitude": ""
+            },
+            {
+                "name": "Pirgachha",
+                "short_name": "pirga",
+                "bengali_name": "পীরগাছা",
+                "website": "",
+                "longitude": "",
+                "latitude": ""
+            },
+            {
+                "name": "Pirganj",
+                "short_name": "pirga",
+                "bengali_name": "পীরগঞ্জ",
+                "website": "",
+                "longitude": "",
+                "latitude": ""
+            },
+            {
+                "name": "Taraganj",
+                "short_name": "tarag",
+                "bengali_name": "তারাগঞ্জ",
+                "website": "",
+                "longitude": "",
+                "latitude": ""
+            }
+        ],
+        "thaku": [
             {
                 "name": "Thakurgaon Sadar Upazila",
-                "short_name": "tha",
+                "short_name": "thaku",
                 "bengali_name": "ঠাকুরগাঁও সদর",
                 "website": "",
                 "longitude": "",
@@ -3400,7 +3410,7 @@
             },
             {
                 "name": "Pirganj Upazila",
-                "short_name": "pir",
+                "short_name": "pirga",
                 "bengali_name": "পীরগঞ্জ",
                 "website": "",
                 "longitude": "",
@@ -3408,7 +3418,7 @@
             },
             {
                 "name": "Baliadangi Upazila",
-                "short_name": "bal",
+                "short_name": "balia",
                 "bengali_name": "বালিয়াডাঙ্গি",
                 "website": "",
                 "longitude": "",
@@ -3416,7 +3426,7 @@
             },
             {
                 "name": "Haripur Upazila",
-                "short_name": "har",
+                "short_name": "harip",
                 "bengali_name": "হরিপুর",
                 "website": "",
                 "longitude": "",
@@ -3424,17 +3434,17 @@
             },
             {
                 "name": "Ranisankail Upazila",
-                "short_name": "ran",
+                "short_name": "ranis",
                 "bengali_name": "রাণীসংকইল",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "hab": [
+        "habig": [
             {
                 "name": "Ajmiriganj",
-                "short_name": "ajm",
+                "short_name": "ajmir",
                 "bengali_name": "আজমিরিগঞ্জ",
                 "website": "",
                 "longitude": "",
@@ -3442,7 +3452,7 @@
             },
             {
                 "name": "Baniachang",
-                "short_name": "ban",
+                "short_name": "bania",
                 "bengali_name": "বানিয়াচং",
                 "website": "",
                 "longitude": "",
@@ -3450,7 +3460,7 @@
             },
             {
                 "name": "Bahubal",
-                "short_name": "bah",
+                "short_name": "bahub",
                 "bengali_name": "বাহুবল",
                 "website": "",
                 "longitude": "",
@@ -3458,7 +3468,7 @@
             },
             {
                 "name": "Chunarughat",
-                "short_name": "chu",
+                "short_name": "chuna",
                 "bengali_name": "চুনারুঘাট",
                 "website": "",
                 "longitude": "",
@@ -3466,7 +3476,7 @@
             },
             {
                 "name": "Habiganj Sadar",
-                "short_name": "hab",
+                "short_name": "habig",
                 "bengali_name": "হবিগঞ্জ সদর",
                 "website": "",
                 "longitude": "",
@@ -3474,7 +3484,7 @@
             },
             {
                 "name": "Lakhai",
-                "short_name": "lak",
+                "short_name": "lakha",
                 "bengali_name": "লাক্ষাই",
                 "website": "",
                 "longitude": "",
@@ -3482,7 +3492,7 @@
             },
             {
                 "name": "Madhabpur",
-                "short_name": "mad",
+                "short_name": "madha",
                 "bengali_name": "মাধবপুর",
                 "website": "",
                 "longitude": "",
@@ -3490,7 +3500,7 @@
             },
             {
                 "name": "Nabiganj",
-                "short_name": "nab",
+                "short_name": "nabig",
                 "bengali_name": "নবীগঞ্জ",
                 "website": "",
                 "longitude": "",
@@ -3498,17 +3508,17 @@
             },
             {
                 "name": "Shaistagonj Upazila",
-                "short_name": "sha",
+                "short_name": "shais",
                 "bengali_name": "শায়েস্তাগঞ্জ",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "mau": [
+        "moulv": [
             {
                 "name": "Moulvibazar Sadar",
-                "short_name": "mou",
+                "short_name": "moulv",
                 "bengali_name": "মৌলভীবাজার",
                 "website": "",
                 "longitude": "",
@@ -3516,7 +3526,7 @@
             },
             {
                 "name": "Barlekha",
-                "short_name": "bar",
+                "short_name": "barle",
                 "bengali_name": "বড়লেখা",
                 "website": "",
                 "longitude": "",
@@ -3524,7 +3534,7 @@
             },
             {
                 "name": "Juri",
-                "short_name": "jur",
+                "short_name": "juri",
                 "bengali_name": "জুড়ি",
                 "website": "",
                 "longitude": "",
@@ -3532,7 +3542,7 @@
             },
             {
                 "name": "Kamalganj",
-                "short_name": "kam",
+                "short_name": "kamal",
                 "bengali_name": "কামালগঞ্জ",
                 "website": "",
                 "longitude": "",
@@ -3540,7 +3550,7 @@
             },
             {
                 "name": "Kulaura",
-                "short_name": "kul",
+                "short_name": "kulau",
                 "bengali_name": "কুলাউরা",
                 "website": "",
                 "longitude": "",
@@ -3548,7 +3558,7 @@
             },
             {
                 "name": "Rajnagar",
-                "short_name": "raj",
+                "short_name": "rajna",
                 "bengali_name": "রাজনগর",
                 "website": "",
                 "longitude": "",
@@ -3556,17 +3566,17 @@
             },
             {
                 "name": "Sreemangal",
-                "short_name": "sre",
+                "short_name": "sreem",
                 "bengali_name": "শ্রীমঙ্গল",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "sun": [
+        "sunam": [
             {
                 "name": "Bishwamvarpur",
-                "short_name": "bis",
+                "short_name": "bishw",
                 "bengali_name": "বিসশম্ভারপুর",
                 "website": "",
                 "longitude": "",
@@ -3574,7 +3584,7 @@
             },
             {
                 "name": "Chhatak",
-                "short_name": "chh",
+                "short_name": "chhat",
                 "bengali_name": "ছাতক",
                 "website": "",
                 "longitude": "",
@@ -3582,7 +3592,7 @@
             },
             {
                 "name": "Derai",
-                "short_name": "der",
+                "short_name": "derai",
                 "bengali_name": "দেড়াই",
                 "website": "",
                 "longitude": "",
@@ -3590,7 +3600,7 @@
             },
             {
                 "name": "Dharampasha",
-                "short_name": "dha",
+                "short_name": "dhara",
                 "bengali_name": "ধরমপাশা",
                 "website": "",
                 "longitude": "",
@@ -3598,7 +3608,7 @@
             },
             {
                 "name": "Dowarabazar",
-                "short_name": "dow",
+                "short_name": "dowar",
                 "bengali_name": "দোয়ারাবাজার",
                 "website": "",
                 "longitude": "",
@@ -3606,7 +3616,7 @@
             },
             {
                 "name": "Jagannathpur",
-                "short_name": "jag",
+                "short_name": "jagan",
                 "bengali_name": "জগন্নাথপুর",
                 "website": "",
                 "longitude": "",
@@ -3614,7 +3624,7 @@
             },
             {
                 "name": "Jamalganj",
-                "short_name": "jam",
+                "short_name": "jamal",
                 "bengali_name": "জামালগঞ্জ",
                 "website": "",
                 "longitude": "",
@@ -3622,7 +3632,7 @@
             },
             {
                 "name": "Sulla",
-                "short_name": "sul",
+                "short_name": "sulla",
                 "bengali_name": "সুল্লা",
                 "website": "",
                 "longitude": "",
@@ -3630,7 +3640,7 @@
             },
             {
                 "name": "Sunamganj Sadar",
-                "short_name": "sun",
+                "short_name": "sunam",
                 "bengali_name": "সুনামগঞ্জ সদর",
                 "website": "",
                 "longitude": "",
@@ -3638,7 +3648,7 @@
             },
             {
                 "name": "Shanthiganj",
-                "short_name": "sha",
+                "short_name": "shant",
                 "bengali_name": "শান্তিগঞ্জ",
                 "website": "",
                 "longitude": "",
@@ -3646,17 +3656,17 @@
             },
             {
                 "name": "Tahirpur",
-                "short_name": "tah",
+                "short_name": "tahir",
                 "bengali_name": "তাহিরপুর",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "syl": [
+        "sylhe": [
             {
                 "name": "Sylhet Sadar",
-                "short_name": "syl",
+                "short_name": "sylhe",
                 "bengali_name": "সিলেট সদর",
                 "website": "",
                 "longitude": "",
@@ -3664,7 +3674,7 @@
             },
             {
                 "name": "Beanibazar",
-                "short_name": "bea",
+                "short_name": "beani",
                 "bengali_name": "বেয়ানিবাজার",
                 "website": "",
                 "longitude": "",
@@ -3672,7 +3682,7 @@
             },
             {
                 "name": "Bishwanath",
-                "short_name": "bis",
+                "short_name": "bishw",
                 "bengali_name": "বিশ্বনাথ",
                 "website": "",
                 "longitude": "",
@@ -3680,7 +3690,7 @@
             },
             {
                 "name": "Dakshin Surma Upazila",
-                "short_name": "dak",
+                "short_name": "daksh",
                 "bengali_name": "দক্ষিণ সুরমা",
                 "website": "",
                 "longitude": "",
@@ -3688,7 +3698,7 @@
             },
             {
                 "name": "Balaganj",
-                "short_name": "bal",
+                "short_name": "balag",
                 "bengali_name": "বালাগঞ্জ",
                 "website": "",
                 "longitude": "",
@@ -3696,7 +3706,7 @@
             },
             {
                 "name": "Companiganj",
-                "short_name": "com",
+                "short_name": "compa",
                 "bengali_name": "কোম্পানিগঞ্জ",
                 "website": "",
                 "longitude": "",
@@ -3704,7 +3714,7 @@
             },
             {
                 "name": "Fenchuganj",
-                "short_name": "fen",
+                "short_name": "fench",
                 "bengali_name": "ফেঞ্চুগঞ্জ",
                 "website": "",
                 "longitude": "",
@@ -3712,7 +3722,7 @@
             },
             {
                 "name": "Golapganj",
-                "short_name": "gol",
+                "short_name": "golap",
                 "bengali_name": "গোলাপগঞ্জ",
                 "website": "",
                 "longitude": "",
@@ -3720,7 +3730,7 @@
             },
             {
                 "name": "Gowainghat",
-                "short_name": "gow",
+                "short_name": "gowai",
                 "bengali_name": "গোয়াইনঘাট",
                 "website": "",
                 "longitude": "",
@@ -3728,7 +3738,7 @@
             },
             {
                 "name": "Jaintiapur",
-                "short_name": "jai",
+                "short_name": "jaint",
                 "bengali_name": "জয়ন্তপুর",
                 "website": "",
                 "longitude": "",
@@ -3736,7 +3746,7 @@
             },
             {
                 "name": "Kanaighat",
-                "short_name": "kan",
+                "short_name": "kanai",
                 "bengali_name": "কানাইঘাট",
                 "website": "",
                 "longitude": "",
@@ -3744,7 +3754,7 @@
             },
             {
                 "name": "Zakiganj",
-                "short_name": "zak",
+                "short_name": "zakig",
                 "bengali_name": "জাকিগঞ্জ",
                 "website": "",
                 "longitude": "",
@@ -3752,17 +3762,17 @@
             },
             {
                 "name": "Nobigonj",
-                "short_name": "nob",
+                "short_name": "nobig",
                 "bengali_name": "নবীগঞ্জ",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "jam": [
+        "jamal": [
             {
                 "name": "Dewanganj Upazila",
-                "short_name": "dew",
+                "short_name": "dewan",
                 "bengali_name": "দেওয়ানগঞ্জ",
                 "website": "",
                 "longitude": "",
@@ -3770,7 +3780,7 @@
             },
             {
                 "name": "Baksiganj Upazila",
-                "short_name": "bak",
+                "short_name": "baksi",
                 "bengali_name": "বকসিগঞ্জ",
                 "website": "",
                 "longitude": "",
@@ -3778,7 +3788,7 @@
             },
             {
                 "name": "Islampur Upazila",
-                "short_name": "isl",
+                "short_name": "islam",
                 "bengali_name": "ইসলামপুর",
                 "website": "",
                 "longitude": "",
@@ -3786,7 +3796,7 @@
             },
             {
                 "name": "Jamalpur Sadar Upazila",
-                "short_name": "jam",
+                "short_name": "jamal",
                 "bengali_name": "জামালপুর সদর",
                 "website": "",
                 "longitude": "",
@@ -3794,7 +3804,7 @@
             },
             {
                 "name": "Madarganj Upazila",
-                "short_name": "mad",
+                "short_name": "madar",
                 "bengali_name": "মাদারগঞ্জ",
                 "website": "",
                 "longitude": "",
@@ -3802,7 +3812,7 @@
             },
             {
                 "name": "Melandaha Upazila",
-                "short_name": "mel",
+                "short_name": "melan",
                 "bengali_name": "মেলানদাহা",
                 "website": "",
                 "longitude": "",
@@ -3810,7 +3820,7 @@
             },
             {
                 "name": "Sarishabari Upazila",
-                "short_name": "sar",
+                "short_name": "saris",
                 "bengali_name": "সরিষাবাড়ি ",
                 "website": "",
                 "longitude": "",
@@ -3818,17 +3828,17 @@
             },
             {
                 "name": "Narundi Police I.C",
-                "short_name": "nar",
+                "short_name": "narun",
                 "bengali_name": "নারুন্দি",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "mym": [
+        "mymen": [
             {
                 "name": "Bhaluka",
-                "short_name": "bha",
+                "short_name": "bhalu",
                 "bengali_name": "ভালুকা",
                 "website": "",
                 "longitude": "",
@@ -3836,7 +3846,7 @@
             },
             {
                 "name": "Trishal",
-                "short_name": "tri",
+                "short_name": "trish",
                 "bengali_name": "ত্রিশাল",
                 "website": "",
                 "longitude": "",
@@ -3844,7 +3854,7 @@
             },
             {
                 "name": "Haluaghat",
-                "short_name": "hal",
+                "short_name": "halua",
                 "bengali_name": "হালুয়াঘাট",
                 "website": "",
                 "longitude": "",
@@ -3852,7 +3862,7 @@
             },
             {
                 "name": "Muktagachha",
-                "short_name": "muk",
+                "short_name": "mukta",
                 "bengali_name": "মুক্তাগাছা",
                 "website": "",
                 "longitude": "",
@@ -3860,7 +3870,7 @@
             },
             {
                 "name": "Dhobaura",
-                "short_name": "dho",
+                "short_name": "dhoba",
                 "bengali_name": "ধবারুয়া",
                 "website": "",
                 "longitude": "",
@@ -3868,7 +3878,7 @@
             },
             {
                 "name": "Fulbaria",
-                "short_name": "ful",
+                "short_name": "fulba",
                 "bengali_name": "ফুলবাড়িয়া",
                 "website": "",
                 "longitude": "",
@@ -3876,7 +3886,7 @@
             },
             {
                 "name": "Gaffargaon",
-                "short_name": "gaf",
+                "short_name": "gaffa",
                 "bengali_name": "গফরগাঁও",
                 "website": "",
                 "longitude": "",
@@ -3884,7 +3894,7 @@
             },
             {
                 "name": "Gauripur",
-                "short_name": "gau",
+                "short_name": "gauri",
                 "bengali_name": "গৌরিপুর",
                 "website": "",
                 "longitude": "",
@@ -3892,7 +3902,7 @@
             },
             {
                 "name": "Ishwarganj",
-                "short_name": "ish",
+                "short_name": "ishwa",
                 "bengali_name": "ঈশ্বরগঞ্জ",
                 "website": "",
                 "longitude": "",
@@ -3900,7 +3910,7 @@
             },
             {
                 "name": "Mymensingh Sadar",
-                "short_name": "mym",
+                "short_name": "mymen",
                 "bengali_name": "ময়মনসিং সদর",
                 "website": "",
                 "longitude": "",
@@ -3908,7 +3918,7 @@
             },
             {
                 "name": "Nandail",
-                "short_name": "nan",
+                "short_name": "nanda",
                 "bengali_name": "নন্দাইল",
                 "website": "",
                 "longitude": "",
@@ -3916,17 +3926,17 @@
             },
             {
                 "name": "Phulpur",
-                "short_name": "phu",
+                "short_name": "phulp",
                 "bengali_name": "ফুলপুর",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "net": [
+        "netro": [
             {
                 "name": "Kendua Upazilla",
-                "short_name": "ken",
+                "short_name": "kendu",
                 "bengali_name": "কেন্দুয়া",
                 "website": "",
                 "longitude": "",
@@ -3934,7 +3944,7 @@
             },
             {
                 "name": "Atpara Upazilla",
-                "short_name": "atp",
+                "short_name": "atpar",
                 "bengali_name": "আটপাড়া",
                 "website": "",
                 "longitude": "",
@@ -3942,7 +3952,7 @@
             },
             {
                 "name": "Barhatta Upazilla",
-                "short_name": "bar",
+                "short_name": "barha",
                 "bengali_name": "বরহাট্টা",
                 "website": "",
                 "longitude": "",
@@ -3950,7 +3960,7 @@
             },
             {
                 "name": "Durgapur Upazilla",
-                "short_name": "dur",
+                "short_name": "durga",
                 "bengali_name": "দুর্গাপুর",
                 "website": "",
                 "longitude": "",
@@ -3958,7 +3968,7 @@
             },
             {
                 "name": "Kalmakanda Upazilla",
-                "short_name": "kal",
+                "short_name": "kalma",
                 "bengali_name": "কলমাকান্দা",
                 "website": "",
                 "longitude": "",
@@ -3966,7 +3976,7 @@
             },
             {
                 "name": "Madan Upazilla",
-                "short_name": "mad",
+                "short_name": "madan",
                 "bengali_name": "মদন",
                 "website": "",
                 "longitude": "",
@@ -3974,7 +3984,7 @@
             },
             {
                 "name": "Mohanganj Upazilla",
-                "short_name": "moh",
+                "short_name": "mohan",
                 "bengali_name": "মোহনগঞ্জ",
                 "website": "",
                 "longitude": "",
@@ -3982,7 +3992,7 @@
             },
             {
                 "name": "Netrakona-S Upazilla",
-                "short_name": "net",
+                "short_name": "netra",
                 "bengali_name": "নেত্রকোনা সদর",
                 "website": "",
                 "longitude": "",
@@ -3990,7 +4000,7 @@
             },
             {
                 "name": "Purbadhala Upazilla",
-                "short_name": "pur",
+                "short_name": "purba",
                 "bengali_name": "পূর্বধলা",
                 "website": "",
                 "longitude": "",
@@ -3998,17 +4008,17 @@
             },
             {
                 "name": "Khaliajuri Upazilla",
-                "short_name": "kha",
+                "short_name": "khali",
                 "bengali_name": "খালিয়াজুরি",
                 "website": "",
                 "longitude": "",
                 "latitude": ""
             }
         ],
-        "she": [
+        "sherp": [
             {
                 "name": "Jhenaigati Upazila",
-                "short_name": "jhe",
+                "short_name": "jhena",
                 "bengali_name": "ঝিনাইগাতি",
                 "website": "",
                 "longitude": "",
@@ -4016,7 +4026,7 @@
             },
             {
                 "name": "Nakla Upazila",
-                "short_name": "nak",
+                "short_name": "nakla",
                 "bengali_name": "নাকলা",
                 "website": "",
                 "longitude": "",
@@ -4024,7 +4034,7 @@
             },
             {
                 "name": "Nalitabari Upazila",
-                "short_name": "nal",
+                "short_name": "nalit",
                 "bengali_name": "নালিতাবাড়ি",
                 "website": "",
                 "longitude": "",
@@ -4032,7 +4042,7 @@
             },
             {
                 "name": "Sherpur Sadar Upazila",
-                "short_name": "she",
+                "short_name": "sherp",
                 "bengali_name": "শেরপুর সদর",
                 "website": "",
                 "longitude": "",
@@ -4040,7 +4050,7 @@
             },
             {
                 "name": "Sreebardi Upazila",
-                "short_name": "sre",
+                "short_name": "sreeb",
                 "bengali_name": "শ্রীবরদি",
                 "website": "",
                 "longitude": "",

@@ -14,7 +14,7 @@ class UnionTest extends TestCase
 
     public function testEqualQuery()
     {
-        $unions = BD::union()->getWhere('sub_district', 'sar');
-        $this->assertEquals(21, count($unions));
+        $unions = BD::union()->getWhere('sub_district', 'sarai');
+        $this->assertEquals(9, count($unions));
     }
 }

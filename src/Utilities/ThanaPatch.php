@@ -56,7 +56,7 @@ class ThanaPatch
     {
         return [
             'name' => trim($resultArray['name']),
-            'short_name' => $resultArray['short_name'] ?? substr(strtolower($resultArray['name']), 0, 3),
+            'short_name' => substr(strtolower($resultArray['name']), 0, 5),
             'bengali_name' => $resultArray['bn_name'],
             'website' => $resultArray['website'] ?? '',
             'longitude' => $resultArray['lon'] ?? '',
@@ -96,7 +96,7 @@ class ThanaPatch
             //districts
             foreach ($districtRows as $district) {
                 $preparedDistrict = $this->prepareArray($district);
-                $districts['data'][$preparedDivision['short_name']][] = $preparedDivision;
+                $districts['data'][$preparedDivision['short_name']][] = $preparedDistrict;
                 $districtsQuery = "select * from upazilas where district_id='{$district['id']}'";
                 $subDistrictRows = $this->execute($this->connection, $districtsQuery);
                 //sub_districts

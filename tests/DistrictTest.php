@@ -14,7 +14,7 @@ class DistrictTest extends TestCase
 
     public function testEqualQuery()
     {
-        $districts = BD::district()->getWhere('division', 'cha');
+        $districts = BD::district()->getWhere('division', 'chatt');
         $this->assertEquals(11, count($districts));
 
         $districts = BD::district()->getWhere('name', 'brahmanbaria');
