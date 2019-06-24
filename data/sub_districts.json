@@ -587,7 +587,7 @@
                 "latitude": ""
             }
         ],
-        "chitt": [
+        "chatt": [
             {
                 "name": "Anwara",
                 "short_name": "anwar",
@@ -837,7 +837,7 @@
                 "latitude": ""
             }
         ],
-        "comil": [
+        "cumil": [
             {
                 "name": "Barura",
                 "short_name": "barur",
@@ -903,8 +903,8 @@
                 "latitude": ""
             },
             {
-                "name": "Comilla Sadar",
-                "short_name": "comil",
+                "name": "Cumilla Sadar",
+                "short_name": "cumil",
                 "bengali_name": "কুমিল্লা সদর",
                 "website": "",
                 "longitude": "",
@@ -951,8 +951,8 @@
                 "latitude": ""
             },
             {
-                "name": "Comilla Sadar South",
-                "short_name": "comil",
+                "name": "Cumilla Sadar South",
+                "short_name": "cumil",
                 "bengali_name": "কুমিল্লা সদর দক্ষিণ",
                 "website": "",
                 "longitude": "",

@@ -51,9 +51,9 @@ BD::union()->all();
 To get all the districts of division that start with 5 character `chatt`(Chattogram), we can use the following code. 
 Same thing will work for sub-disctrict and union. But in case of sub-district and union we need to pass `district` and `sub_district` respectively.  
 ```
-BD::district()->getWhere('division', 'cha');
-BD::subDistrict()->getWhere('district', 'bra');
-BD::union()->getWhere('sub_district', 'sar');
+BD::district()->getWhere('division', 'chatt');
+BD::subDistrict()->getWhere('district', 'brahm');
+BD::union()->getWhere('sub_district', 'sarai');
 ```
 
 To get the district that has name `Brahmanbaria` we can use the following code. Same thing will work for division, sub-district and union also. Insead of `name` we can pass `short_name`(first 3 letter of the location), `bengali_name` also. 
