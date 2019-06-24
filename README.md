@@ -48,7 +48,7 @@ To get all **unions** of Bangladesh of Bangladesh as an array of Location object
 BD::union()->all();
 ```
 
-To get all the districts of division that start with 3 character `cha`(Chattogram), we can use the following code. 
+To get all the districts of division that start with 5 character `chatt`(Chattogram), we can use the following code. 
 Same thing will work for sub-disctrict and union. But in case of sub-district and union we need to pass `district` and `sub_district` respectively.  
 ```
 BD::district()->getWhere('division', 'cha');
